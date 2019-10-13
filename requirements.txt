@@ -1,1 +1,1 @@
-pelican[Markdown]<5
+pelican[Markdown]<4.2
