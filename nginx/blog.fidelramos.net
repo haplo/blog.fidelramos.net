@@ -1,0 +1,54 @@
+server {
+	listen 80 default_server;
+	listen [::]:80 default_server;
+
+	server_name blog.fidelramos.net;
+
+	return 301 https://$host$request_uri;
+}
+
+server {
+	listen 443 ssl default_server;
+	listen [::]:443 ssl default_server;
+
+	root /var/www/blog.fidelramos.net;
+	index index.html;
+
+	server_name blog.fidelramos.net;
+
+	keepalive_timeout 5;
+
+	#SSL Certificates
+	ssl_certificate "/etc/letsencrypt/live/blog.fidelramos.net/fullchain.pem";
+	ssl_certificate_key "/etc/letsencrypt/live/blog.fidelramos.net/privkey.pem";
+	ssl_trusted_certificate "/etc/letsencrypt/live/blog.fidelramos.net/chain.pem";
+	ssl_dhparam /etc/nginx/dhparam.pem;
+
+	ssl_protocols TLSv1.2 TLSv1.1 TLSv1;
+
+	ssl_session_cache shared:SSL:1m;
+	ssl_session_timeout 10m;
+	ssl_ciphers HIGH:!aNULL:!MD5;
+	ssl_prefer_server_ciphers  on;
+
+	# add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
+
+	location / {
+		if (!-e $request_filename){
+			rewrite ^(.*)$ /index.html break;
+		}
+	}
+
+	location ~* .(eot|otf|woff|ttf|css|js|jpg|jpeg|gif|png|ico|html|txt|htm|appcache)$ {
+		expires -1;
+		etag off;
+		if_modified_since off;
+		log_not_found off;
+		access_log off;
+		fastcgi_hide_header Set-Cookie;
+	}
+
+	location ~* "^.*?\.(eot)|(ttf)|(woff)$" {
+		add_header Access-Control-Allow-Origin *;
+	}
+}
