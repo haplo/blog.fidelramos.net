@@ -15,7 +15,7 @@ SITEURL = 'https://blog.fidelramos.net'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-TAG_FEED_ATOM = 'feeds/{slug}.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 TRANSLATION_FEED_ATOM = 'feeds/{lang}.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
