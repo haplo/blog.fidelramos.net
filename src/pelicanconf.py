@@ -12,6 +12,7 @@ TIMEZONE = 'Europe/Madrid'
 
 DEFAULT_LANG = 'en'
 
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -35,3 +36,14 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+PLUGIN_PATHS = ['/home/user/Code/pelican-plugins']
+PLUGINS = ['i18n_subsites']
+
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n'],
+}
+
+I18N_SUBSITES = {
+    'es': {},
+}
