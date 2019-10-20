@@ -125,6 +125,7 @@ I18N_SUBSITES = {
 }
 
 DATE_FORMATS = {
+    # ISO 8601 FTW
     'en': '%Y-%m-%d',
     'es': '%Y-%m-%d',
 }
