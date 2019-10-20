@@ -42,17 +42,12 @@ MENUITEMS = (
 )
 
 LINKS = (
-    ('Archive', '/archives#archives'),
-    ('Categories', '/categories#categories'),
-    ('Tags', '/tags#tags'),
-    ('DuckDuckGo', 'https://duckduckgo.com')
+    ('Español', '/es/'),
 )
 
-# Social widget
 GITHUB_URL = 'https://github.com/haplo'
 SOCIAL = (
     ('twitter', 'https://twitter.com/ampajaro'),
-#    ('mastodon', ''),
     ('github', GITHUB_URL),
     ('flickr', 'https://www.flickr.com/photos/fidelramos/'),
     ('linkedin', 'https://www.linkedin.com/in/fidelramos/'),
@@ -88,9 +83,12 @@ LOCALE = 'en_US'
 
 I18N_SUBSITES = {
     'es': {
-        'INDEX_DESCRIPTION': 'Blog personal de Fidel Ramos',
+        'SITEDESCRIPTION': 'Blog personal de Fidel Ramos',
         'OG_LOCALE': 'es_ES',
         'LOCALE': 'es_ES',
+        'LINKS': (
+            ('English', '/'),
+        ),
         'MENUITEMS': (
             ('Archivo', SITEURL+'/es/archives#archives'),
             ('Categorías', SITEURL+'/es/categories#categories'),
