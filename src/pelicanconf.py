@@ -26,6 +26,19 @@ DEFAULT_DATE = 'fs'
 
 LOAD_CONTENT_CACHE = False
 
+ARTICLE_URL = '{category}/{slug}'
+ARTICLE_SAVE_AS = '{category}/{slug}.html'
+AUTHOR_SAVE_AS = ''
+AUTHORS_SAVE_AS = ''
+CATEGORIES_URL = 'categories/'
+CATEGORIES_SAVE_AS = 'categories/index.html'
+CATEGORY_URL = 'categories/{slug}'
+CATEGORY_SAVE_AS = 'categories/{slug}.html'
+TAGS_URL = 'tags/'
+TAGS_SAVE_AS = 'tags/index.html'
+TAG_URL = 'tags/{slug}'
+TAG_SAVE_AS = 'tags/{slug}.html'
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -96,6 +109,18 @@ I18N_SUBSITES = {
             ('Categorías', SITEURL+'/es/categories#categories'),
             ('Etiquetas', SITEURL+'/es/tags#tags'),
         ),
+        'ARCHIVES_URL': 'archivos/',
+        'ARCHIVES_SAVE_AS': 'archivos/index.html',
+        'CATEGORIES_URL': 'categorias/',
+        'CATEGORIES_SAVE_AS': 'categorias/index.html',
+        'CATEGORY_URL': 'categorias/{slug}',
+        'CATEGORY_SAVE_AS': 'categorias/{slug}.html',
+        'PAGE_URL': 'paginas/{slug}',
+        'PAGE_SAVE_AS': 'paginas/{slug}.html',
+        'TAGS_URL': 'etiquetas/',
+        'TAGS_SAVE_AS': 'etiquetas/index.html',
+        'TAG_URL': 'etiquetas/{slug}',
+        'TAG_SAVE_AS': 'etiquetas/{slug}.html',
     },
 }
 
