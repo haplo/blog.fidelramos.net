@@ -125,6 +125,9 @@ I18N_SUBSITES = {
     },
 }
 
+I18N_UNTRANSLATED_ARTICLES = 'remove'
+I18N_UNTRANSLATED_PAGES = 'remove'
+
 DATE_FORMATS = {
     # ISO 8601 FTW
     'en': '%Y-%m-%d',
