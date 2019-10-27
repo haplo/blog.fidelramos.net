@@ -57,6 +57,7 @@ MENUITEMS = (
 LINKS = (
     ('Español', '/es/'),
 )
+LINKS_IN_NEW_TAB = 'external'
 
 GITHUB_URL = 'https://github.com/haplo'
 SOCIAL = (
