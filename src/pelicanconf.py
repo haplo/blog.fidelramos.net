@@ -106,9 +106,9 @@ I18N_SUBSITES = {
             ('English', '/'),
         ),
         'MENUITEMS': (
-            ('Archivo', SITEURL+'/es/archives#archives'),
-            ('Categorías', SITEURL+'/es/categories#categories'),
-            ('Etiquetas', SITEURL+'/es/tags#tags'),
+            ('Archivo', SITEURL+'/es/archivos#archives'),
+            ('Categorías', SITEURL+'/es/categorias#categories'),
+            ('Etiquetas', SITEURL+'/es/etiquetas#tags'),
         ),
         'ARCHIVES_URL': 'archivos/',
         'ARCHIVES_SAVE_AS': 'archivos/index.html',
