@@ -7,7 +7,7 @@ SITENAME = 'blog.fidelramos.net'
 SITETITLE = AUTHOR
 SITESUBTITLE = ''
 SITEDESCRIPTION = 'Fidel Ramos personal blog'
-SITEURL = ''
+SITEURL = 'http://localhost:8000'
 SITELOGO = SITEURL + '/images/fidel.jpg'
 FAVICON = SITEURL + '/images/favicon.ico'
 
