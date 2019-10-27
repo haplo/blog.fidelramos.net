@@ -9,7 +9,7 @@ SITESUBTITLE = ''
 SITEDESCRIPTION = 'Fidel Ramos personal blog'
 SITEURL = 'http://localhost:8000'
 SITELOGO = SITEURL + '/images/fidel.jpg'
-FAVICON = SITEURL + '/images/favicon.ico'
+FAVICON = 'https://fidelramos.net/favicon.ico'
 
 CC_LICENSE = {
     'name': 'Creative Commons Attribution-ShareAlike',

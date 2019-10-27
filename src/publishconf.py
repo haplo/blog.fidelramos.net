@@ -12,6 +12,8 @@ from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
 SITEURL = 'https://blog.fidelramos.net'
+SITELOGO = SITEURL + '/images/fidel.jpg'
+
 RELATIVE_URLS = False
 
 # Drop .html from all URLs
