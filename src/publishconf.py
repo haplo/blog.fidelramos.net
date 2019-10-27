@@ -16,17 +16,6 @@ SITELOGO = SITEURL + '/images/fidel.jpg'
 
 RELATIVE_URLS = False
 
-# Drop .html from all URLs
-# These settings should be the same as pelicanconf just without .html
-ARTICLE_URL = '{category}/{slug}'
-ARTICLE_SAVE_AS = '{category}/{slug}'
-PAGE_URL = 'pages/{slug}'
-PAGE_SAVE_AS = 'pages/{slug}'
-TAG_URL = 'tag/{slug}'
-TAG_SAVE_AS = 'tag/{slug}'
-CATEGORY_URL = 'category/{slug}'
-CATEGORY_SAVE_AS = 'category/{slug}'
-
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 TRANSLATION_FEED_ATOM = 'feeds/{lang}.atom.xml'
