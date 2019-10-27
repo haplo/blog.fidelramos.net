@@ -53,6 +53,8 @@ MENUITEMS = (
     ('Archive', '/archives#archives'),
     ('Categories', '/categories#categories'),
     ('Tags', '/tags#tags'),
+    ('Atom', '/feeds/en.atom.xml'),
+    ('RSS', '/feeds/en.rss.xml'),
 )
 
 LINKS = (
@@ -61,13 +63,13 @@ LINKS = (
 LINKS_IN_NEW_TAB = 'external'
 
 GITHUB_URL = 'https://github.com/haplo'
-SOCIAL = (
+SOCIAL = [
     ('twitter', 'https://twitter.com/ampajaro'),
     ('github', GITHUB_URL),
     ('flickr', 'https://www.flickr.com/photos/fidelramos/'),
     ('linkedin', 'https://www.linkedin.com/in/fidelramos/'),
-    ('rss', SITEURL+'/atom.xml'),
-)
+    ('rss', '/feeds/en.atom.xml'),
+]
 
 TWITTER_USERNAME = 'ampajaro'
 
@@ -106,10 +108,15 @@ I18N_SUBSITES = {
         'LINKS': (
             ('English', '/'),
         ),
+        'SOCIAL': SOCIAL[:-1] + [
+            ('rss', '/es/feeds/es.atom.xml'),
+        ],
         'MENUITEMS': (
-            ('Archivo', SITEURL+'/es/archivos#archives'),
-            ('Categorías', SITEURL+'/es/categorias#categories'),
-            ('Etiquetas', SITEURL+'/es/etiquetas#tags'),
+            ('Archivo', '/es/archivos#archives'),
+            ('Categorías', '/es/categorias#categories'),
+            ('Etiquetas', '/es/etiquetas#tags'),
+            ('Atom', '/es/feeds/es.atom.xml'),
+            ('RSS', '/es/feeds/es.rss.xml'),
         ),
         'ARCHIVES_URL': 'archivos/',
         'ARCHIVES_SAVE_AS': 'archivos/index.html',

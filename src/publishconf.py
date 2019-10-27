@@ -16,8 +16,9 @@ SITELOGO = SITEURL + '/images/fidel.jpg'
 
 RELATIVE_URLS = False
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+CATEGORY_FEED_RSS = 'feeds/{slug}.rss.xml'
 TRANSLATION_FEED_ATOM = 'feeds/{lang}.atom.xml'
+TRANSLATION_FEED_RSS = 'feeds/{lang}.rss.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
