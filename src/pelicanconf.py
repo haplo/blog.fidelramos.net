@@ -19,6 +19,7 @@ CC_LICENSE = {
 COPYRIGHT_YEAR = 2019
 
 PATH = 'content'
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'Europe/Madrid'
 
