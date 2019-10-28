@@ -33,5 +33,7 @@ Deployment
 ==========
 
 ``` shell
+$ . virtualenv/bin/activate
+(virtualenv)$ cd src
 make rsync_publish
 ```
