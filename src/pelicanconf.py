@@ -94,8 +94,8 @@ JINJA_ENVIRONMENT = {
 
 # i18n and language configuration
 DEFAULT_LANG = 'en'
-OG_LOCALE = 'en_US'
-LOCALE = 'en_US'
+# use "locale -a" in GNU/Linux to see available locales
+LOCALE = ['en_US.utf8', 'es_ES.utf8']
 
 I18N_SUBSITES = {
     'es': {
