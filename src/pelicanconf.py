@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
-
 AUTHOR = 'Fidel Ramos'
 SITENAME = 'blog.fidelramos.net'
 SITETITLE = AUTHOR
