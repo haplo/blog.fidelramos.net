@@ -5,15 +5,16 @@ This is the full source code for my personal blog:
 [blog.fidelramos.net](https://blog.fidelramos.net/).
 
 It's built with [Pelican](http://getpelican.com/) using the [Flex
-theme](https://github.com/alexandrevicenzi/Flex). I have been making
-changes to Flex to cover my needs, until my PRs are accepted upstream
-this blog needs [my fork of Flex](https://github.com/haplo/Flex).
+theme](https://github.com/alexandrevicenzi/Flex), which needs to be checked out
+for the current settings to work.
 
 Set up
 ======
 
 ``` shell
 $ git clone https://github.com/haplo/blog.fidelramos.net.git
+$ git clone https://github.com/alexandrevicenzi/Flex.git pelican-theme-Flex
+$ git clone https://github.com/getpelican/pelican-plugins.git
 $ cd blog.fidelramos.net
 $ python3 -m venv virtualenv
 $ . virtualenv/bin/activate
