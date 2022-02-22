@@ -6,8 +6,8 @@ Url: paginas/acerca
 
 Parece que has encontrado mi blog. ¡Bienvenido! Espero que encuentres
 algo interesante. No dudes en compartir o comentar (aunque aún no
-tengo comentarios en las páginas, pero puedes usar Twitter y
-[mencionarme](https://twitter.com/ampajaro/)).
+tengo comentarios en las páginas, pero puedes usar Twitter o Mastodon
+y [mencionarme](https://mastodon.social/@fidel)).
 
 Si quieres saber más detalles sobre mi, incluyendo información de
 contacto, puedes visitar mi [página web](https://fidelramos.net).
