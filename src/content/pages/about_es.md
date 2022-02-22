@@ -14,7 +14,7 @@ contacto, puedes visitar mi [página web](https://fidelramos.net).
 
 Dado que este es mi blog personal escribiré sobre todo tipo de cosas
 que me apasionan, mis hobbies o cosas que vaya descubriendo y quiera
-compartir. Algunos de los [temas habituales](/categorias#categories)
+compartir. Algunos de los [temas habituales](/es/categorias#categories)
 sobre los que pienso escribir son:
 
 * [Programación / Software Libre / Ingeniería de Software / Ordenadores en general](/categorias/software)
