@@ -61,6 +61,7 @@ LINKS_IN_NEW_TAB = 'external'
 GITHUB_URL = 'https://github.com/haplo'
 SOCIAL = [
     ('twitter', 'https://twitter.com/ampajaro'),
+    ('mastodon', 'https://mastodon.social/@fidel'),
     ('github', GITHUB_URL),
     ('flickr', 'https://www.flickr.com/photos/fidelramos/'),
     ('linkedin', 'https://www.linkedin.com/in/fidelramos/'),
