@@ -11,6 +11,9 @@ Proyectos en activo
 - Mi [repositorio de dotfiles](https://github.com/haplo/dotfiles).
 - [Mi configuración de Emacs](https://github.com/haplo/prelude),
   basada en [prelude](https://github.com/bbatsov/prelude).
+- [python-lsp-black](https://github.com/python-lsp/python-lsp-black/), un plugin para
+  [python-lsp-server](https://github.com/python-lsp/python-lsp-server) que formatea código
+  Python usando la herramienta de formateado [black](https://github.com/psf/black).
 - [wagtail-csv-import](https://github.com/haplo/wagtail-csv-import),
   una aplicación de importación/exportación en CSV para
   [Wagtail](https://wagtail.io/). Reescribí la app casi desde cero:
@@ -32,6 +35,7 @@ Proyectos viejos y abandonados
 Contribuciones a software libre
 -------------------------------
 
+- Mantenimiento de [python-lsp-black](https://github.com/python-lsp/python-lsp-black/).
 - Mejoras de rendimientos para [Wagtail](https://wagtail.io/), una
   popular aplicación de CMS para Django.
 - Múltiples mejoras al [tema Flex para
