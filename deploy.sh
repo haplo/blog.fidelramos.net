@@ -1,2 +1,5 @@
 #!/bin/bash
-rsync -av src/ fidelramos.net:/home/fidel/www/blog.fidelramos.net
+source virtualenv/bin/activate
+cd src
+make publish
+rsync -av --delete output/ fidelramos.net:/home/fidel/www/blog.fidelramos.net
