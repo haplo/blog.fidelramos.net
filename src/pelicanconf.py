@@ -1,3 +1,5 @@
+import copy
+
 AUTHOR = 'Fidel Ramos'
 SITENAME = 'blog.fidelramos.net'
 SITETITLE = AUTHOR
@@ -93,6 +95,22 @@ JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
 }
 
+MARKDOWN = {
+    'extensions': [
+        'markdown_captions',
+    ],
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.footnotes': {},
+        'markdown.extensions.meta': {},
+        'markdown.extensions.toc': {
+            'title': 'Table of Contents'
+        },
+    },
+    'output_format': 'html5',
+}
+
 # i18n and language configuration
 DEFAULT_LANG = 'en'
 # use "locale -a" in GNU/Linux to see available locales
@@ -128,8 +146,10 @@ I18N_SUBSITES = {
         'TAGS_SAVE_AS': 'etiquetas/index.html',
         'TAG_URL': 'etiquetas/{slug}',
         'TAG_SAVE_AS': 'etiquetas/{slug}.html',
+        'MARKDOWN': copy.deepcopy(MARKDOWN),  # copy to override later
     },
 }
+I18N_SUBSITES['es']['MARKDOWN']['extension_configs']['markdown.extensions.toc']['title'] = 'Índice de contenidos'
 
 I18N_UNTRANSLATED_ARTICLES = 'remove'
 I18N_UNTRANSLATED_PAGES = 'remove'
