@@ -1,5 +1,6 @@
 Title: Mi proceso fotográfico con software libre
 Date: 2022-03-31
+Modified: 2022-04-05
 Lang: es
 Category: Photography
 Tags: fotografía,software-libre
@@ -103,16 +104,16 @@ perdería resolución de previsualización). Por esta razón sigo usando Geeqie.
 ![Digikam Lightroom]({static}/images/photography_workflow/digikam_lightroom.jpg "Click para ver a pantalla completa"){: .align-center}
 ]({static}/images/photography_workflow/digikam_lightroom.jpg "Click para ver a pantalla completa")
 
-## 3. Procesado de RAW con RawTheRapee
+## 3. Procesado de RAW con RawTherapee
 
-Actualmente proceso la mayoría de mis fotos con [RawTheRapee](https://rawtherapee.com/),
+Actualmente proceso la mayoría de mis fotos con [RawTherapee](https://rawtherapee.com/),
 un fabuloso software libre que es a la vez fácil de usar y produce fotos de muy alta
 calidad. En el pasado he usado también [Darktable](https://www.darktable.org/), pero
 aunque tiene más funcionalidades me costaba más tiempo y esfuerzo lograr los resultados
-que suelo buscar, sobre todo porque la reducción de ruido de RawTheRapee funciona mucho
+que suelo buscar, sobre todo porque la reducción de ruido de RawTherapee funciona mucho
 mejor.
 
-En cualquier caso, abro el directorio con el álbum en RawTheRapee, aplico un [perfil
+En cualquier caso, abro el directorio con el álbum en RawTherapee, aplico un [perfil
 base](https://rawpedia.rawtherapee.com/Creating_processing_profiles_for_general_use) a
 todas las fotos y luego aplico perfiles parcialmente para aclarar (_sharpen_) imágenes con
 bajo ruido, aplicar una leve reducción de ruido a las imágenes con ISO intermedio y
@@ -120,11 +121,11 @@ reducción de ruido agresiva para aquellas con ISOs elevados. Uso el filtrado pa
 seleccionar sólo los ficheros RAW y luego aplico subfiltros por ISO.
 
 [
-![Filtrado en RawTheRapee]({static}/images/photography_workflow/rawtherapee_filter.jpg "Click para ver a pantalla completa"){: .align-center}
+![Filtrado en RawTherapee]({static}/images/photography_workflow/rawtherapee_filter.jpg "Click para ver a pantalla completa"){: .align-center}
 ]({static}/images/photography_workflow/rawtherapee_filter.jpg "Click para ver a pantalla completa")
 
 [
-![Perfiles de procesado en RawTheRapee]({static}/images/photography_workflow/rawtherapee_profiles.png "Click para ver a pantalla completa"){: .align-center}
+![Perfiles de procesado en RawTherapee]({static}/images/photography_workflow/rawtherapee_profiles.png "Click para ver a pantalla completa"){: .align-center}
 ]({static}/images/photography_workflow/rawtherapee_profiles.png "Click para ver a pantalla completa")
 
 Después aplico corrección a la distorsión de lente a todas las fotos. La detección
@@ -133,12 +134,12 @@ grupo (_Batch Edit_), selecciono todas las fotos en el álbum y selecciono manua
 cámara y lente.
 
 [
-![Correción de distorsión de lente en RawTheRapee]({static}/images/photography_workflow/rawtherapee_batch_edit.png "Click para ver a pantalla completa"){: .align-center}
+![Correción de distorsión de lente en RawTherapee]({static}/images/photography_workflow/rawtherapee_batch_edit.png "Click para ver a pantalla completa"){: .align-center}
 ]({static}/images/photography_workflow/rawtherapee_batch_edit.png "Click para ver a pantalla completa")
 
 Lo siguiente es revisar las fotos una por una, haciendo ajustes: exposición, balance de
 blancos, recorte, etc. No voy a entrar en detalles porque es edición normal con
-RawTheRapee. Si te interesa saber más no dudes en enviarme un mensaje y consideraré hacer
+RawTherapee. Si te interesa saber más no dudes en enviarme un mensaje y consideraré hacer
 un artículo o vídeo al respecto.
 
 Cuando todo está listo pongo las fotos en la cola (_Queue_) y las exporto al mismo
@@ -148,12 +149,12 @@ entonces uso formato TIFF, dado que JPEG es un formato con pérdida y perdería 
 se vuelve a modificar.
 
 [
-![Cola en RawTheRapee]({static}/images/photography_workflow/rawtherapee_queue.jpg "Click para ver a pantalla completa"){: .align-center}
+![Cola en RawTherapee]({static}/images/photography_workflow/rawtherapee_queue.jpg "Click para ver a pantalla completa"){: .align-center}
 ]({static}/images/photography_workflow/rawtherapee_queue.jpg "Click para ver a pantalla completa")
 
 ## 4. Organizar en Digikam
 
-Cuando RawTheRapee ha terminado de guardar las fotos borro los JPEG generados por la
+Cuando RawTherapee ha terminado de guardar las fotos borro los JPEG generados por la
 cámara, luego vuelvo a Digikam y refresco (_Refresh_) el álbum para ver los nuevos
 ficheros.
 
@@ -297,3 +298,8 @@ sociales si te interesa estar al tanto de su lanzamiento.
 Si tienes cualquier comentario o sugerencia me encantaría oírlo, no dudes en mencionarme o
 enviarme un mensaje por redes sociales, o un email. Puedes ver mis datos de contacto en
 [mi página web]( https://fidelramos.net/).
+
+## Actualizaciones
+
+- 2022-04-05: Corregido el nombre de RawTherapee. Gracias por los [desternillantes
+  comentarios, Hacker News](https://news.ycombinator.com/item?id=30918149).

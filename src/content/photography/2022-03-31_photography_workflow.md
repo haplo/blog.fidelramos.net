@@ -1,5 +1,6 @@
 Title: My free-software photography workflow
 Date: 2022-03-31
+Modified: 2022-04-05
 Lang: en
 Category: Photography
 Tags: photography,free-software
@@ -95,26 +96,26 @@ lose on preview resolution), which is why I'm sticking to Geeqie for now.
 ![Digikam Lightroom]({static}/images/photography_workflow/digikam_lightroom.jpg "Click to see full size"){: .align-center}
 ]({static}/images/photography_workflow/digikam_lightroom.jpg "Click to see full size")
 
-## 3. Process RAWs with RawTheRapee
+## 3. Process RAWs with RawTherapee
 
-Nowadays I process most of my photos in [RawTheRapee](https://rawtherapee.com/), a
+Nowadays I process most of my photos in [RawTherapee](https://rawtherapee.com/), a
 sensational piece of free software which is both very easy to use and produces very
 high-quality pictures. In the past I have used [Darktable](https://www.darktable.org/) and
 while it's more featureful I was having a harder time getting the results I wanted
-most of the time, mainly because RawTheRapee's noise reduction works better.
+most of the time, mainly because RawTherapee's noise reduction works better.
 
-In any case, I open the album directory in RawTheRapee, apply a [base
+In any case, I open the album directory in RawTherapee, apply a [base
 profile](https://rawpedia.rawtherapee.com/Creating_processing_profiles_for_general_use) to
 all pictures, and then apply partial profiles to sharpen low-noise images, use a mild
 noise reduction for mid-ISO images and heavy noise reduction to high-ISO ones. I use the
 filter feature to select only RAW files and then subfilter by ISO range as necessary.
 
 [
-![RawTheRapee filter]({static}/images/photography_workflow/rawtherapee_filter.jpg "Click to see full size"){: .align-center}
+![RawTherapee filter]({static}/images/photography_workflow/rawtherapee_filter.jpg "Click to see full size"){: .align-center}
 ]({static}/images/photography_workflow/rawtherapee_filter.jpg "Click to see full size")
 
 [
-![RawTheRapee processing profiles]({static}/images/photography_workflow/rawtherapee_profiles.png "Click to see full size"){: .align-center}
+![RawTherapee processing profiles]({static}/images/photography_workflow/rawtherapee_profiles.png "Click to see full size"){: .align-center}
 ]({static}/images/photography_workflow/rawtherapee_profiles.png "Click to see full size")
 
 Then I correct all photos for lens distortion. Automatic lens recognition fails for me for
@@ -122,11 +123,11 @@ some reason, so I use Batch Edit, select all photos in the album and manually se
 camera and lens.
 
 [
-![RawTheRapee batch edit and lens correction]({static}/images/photography_workflow/rawtherapee_batch_edit.png "Click to see full size"){: .align-center}
+![RawTherapee batch edit and lens correction]({static}/images/photography_workflow/rawtherapee_batch_edit.png "Click to see full size"){: .align-center}
 ]({static}/images/photography_workflow/rawtherapee_batch_edit.png "Click to see full size")
 
 Then I go over the individual photos, making manual adjustments: exposure, white balance,
-cropping, etc. This is regular RawTheRapee editing so I won't go into details at this
+cropping, etc. This is regular RawTherapee editing so I won't go into details at this
 point. If you are interested feel free to send me a message and I would consider doing a
 separate blog post about it.
 
@@ -136,12 +137,12 @@ some photo (usually in GIMP) I export to TIFF as JPEG is a lossy format and woul
 more quality on any additional reencodings.
 
 [
-![RawTheRapee queue]({static}/images/photography_workflow/rawtherapee_queue.jpg "Click to see full size"){: .align-center}
+![RawTherapee queue]({static}/images/photography_workflow/rawtherapee_queue.jpg "Click to see full size"){: .align-center}
 ]({static}/images/photography_workflow/rawtherapee_queue.jpg "Click to see full size")
 
 ## 4. Organize in Digikam
 
-Once RawTheRapee is finished exporting I delete the camera-generated JPEGs, then go back
+Once RawTherapee is finished exporting I delete the camera-generated JPEGs, then go back
 to Digikam and _Refresh_ the album to see the new exported files.
 
 Next step is to group the photos by name, so I only see the JPEGs and not the RAWs. In the
@@ -270,3 +271,8 @@ basic features are working, so stay tuned!
 If you have any comments, suggestions or feedback I would love to hear about it; feel free
 to tag me in social media or send me a direct message. Check out [my personal website](
 https://fidelramos.net/) for contact information.
+
+## Updates
+
+- 2022-04-05: Fixed RawTherapee name. Thank you for the [hilarious comments, Hacker
+  News](https://news.ycombinator.com/item?id=30918149).
