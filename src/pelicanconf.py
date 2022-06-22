@@ -14,7 +14,7 @@ CC_LICENSE = {
     'version': '4.0',
     'slug': 'by-sa'
 }
-COPYRIGHT_YEAR = 2019
+COPYRIGHT_YEAR = 2022
 
 PATH = 'content'
 STATIC_PATHS = ['images']
