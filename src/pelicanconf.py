@@ -76,7 +76,7 @@ DEFAULT_PAGINATION = 10
 
 ROBOTS = 'index,follow'
 
-THEME = '../../pelican-theme-Flex'
+THEME = '../../pelican-theme-reflex'
 EXTRA_PATH_METADATA = {
     'extra/custom.css': {'path': 'static/custom.css'},
 }
