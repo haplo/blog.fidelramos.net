@@ -82,6 +82,13 @@ EXTRA_PATH_METADATA = {
 }
 CUSTOM_CSS = 'static/custom.css'
 
+THEME_COLOR = "light"
+THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
+THEME_COLOR_ENABLE_USER_OVERRIDE = True
+
+PYGMENTS_STYLE = "monokai"
+PYGMENTS_STYLE_DARK = "monokai"
+
 USE_GOOGLE_FONTS = False
 
 # Uncomment following line if you want document-relative URLs when developing
