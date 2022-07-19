@@ -20,7 +20,7 @@ COPYRIGHT_YEAR = datetime.now().year
 PATH = "content"
 STATIC_PATHS = ["images"]
 
-TIMEZONE = "Europe/Madrid"
+TIMEZONE = "UTC"
 
 DEFAULT_DATE = "fs"
 
