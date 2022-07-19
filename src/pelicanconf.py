@@ -1,4 +1,5 @@
 import copy
+from datetime import datetime
 
 AUTHOR = "Fidel Ramos"
 SITENAME = "blog.fidelramos.net"
@@ -14,7 +15,7 @@ CC_LICENSE = {
     "version": "4.0",
     "slug": "by-sa",
 }
-COPYRIGHT_YEAR = 2022
+COPYRIGHT_YEAR = datetime.now().year
 
 PATH = "content"
 STATIC_PATHS = ["images"]
