@@ -1,5 +1,6 @@
 Title: Las extensiones de navegador web que uso
 Date: 2022-02-23
+Modified: 2022-11-19
 Lang: es
 Category: Software
 Tags: firefox,web,extensiones,privacidad,seguridad,criptomoneda
@@ -10,12 +11,11 @@ de vez en cuando.
 
 Uso [Firefox](https://www.mozilla.org/en-US/firefox/new/) como mi navegador web de
 cabecera, porque pese a sus limitaciones sigue siendo la mejor opción disponible para mí,
-por razones que darían para otro artículo. La mayoría de estas extensiones están
-disponibles para otros navegadores. Cuando sea apropiado enlazaré a la web principal del
-proyecto.
+por razones que darían para otro artículo. Algunas de estas extensiones están disponibles
+para otros navegadores. Cuando sea apropiado enlazaré a la web principal del proyecto.
 
-Procuro ser muy cuidadoso con las extensiones que instalo, dado que tienen acceso a casi
-todos los datos del navegador, así que si fuese comprometida se podría convertir en una
+Procuro ser cuidadoso con las extensiones que instalo, dado que tienen acceso a casi todos
+los datos del navegador, así que si fuese comprometida se podría convertir en una
 pesadilla si por ejemplo consiguiese robar las credenciales de mi cuenta de correo
 electrónico (aunque la A2F debería reducir ese riesgo). Por esta razón no uso muchas
 extensiones que son potencialmente útiles pero que tampoco es que me hagan falta. Las que
@@ -44,9 +44,12 @@ alfabético:
   es la extensión oficial para navegadores web, con autocompletado de
   formularios. Funciona bastante bien aunque no tanto como competidores como Lastpass o
   1Password, pero no les confiaría mis datos más íntimos a terceros.
-- [Metamask](https://metamask.io/): una billetera (_wallet_) de
-  [Ethereum](https://ethereum.org/en/) muy completa, abre la puerta a la Web 3.0, Dapps,
-  NFTs, ICOs, tokens ERC20...
+- [Tally Ho!](https://tallyho.org/): una billetera de criptomonedas de código abierto,
+  abre la puerta a la Web 3.0, Dapps, NFTs, ICOs, tokens ERC20... Para mi ha reemplazado a
+  Metamask, que es la opción más popular pero es de código privativo. A noviembre de 2022
+  soporta [Ethereum](https://ethereum.org/en/), [Polygon](https://polygon.technology/),
+  [Optimism](https://www.optimism.io/) y [Arbitrum](https://arbitrum.io/), y añaden
+  soporte para otras cadenas de bloques con frecuencia.
 - [Firefox Multi-Account
   Container](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/):
   Firefox tiene soporte de serie para contenedores, esta extensión es necesaria para
@@ -78,3 +81,17 @@ alfabético:
   memoria, normalmente ahorra más que consume, dado que las páginas web cargan más rápido
   sin toda la mierda que suelen incluir (anuncios, rastreadores, etc.). Especialmente en
   móvil se puede notar mucho.
+- [Sidebery](https://addons.mozilla.org/en-US/firefox/addon/sidebery/): un gestor de
+  pestañas para Firefox. Si eres como yo y tienes no ya docenas, sino cientos de pestañas
+  abiertas, esta extensión lo cambia todo. Tener tantas pestañas abiertas se convierte en
+  una ventaja en vez de un inconveniente. Las pestañas se organizan jerárquicamente como
+  un árbol; se pueden agrupar las pestañas de diferentes formas (grupos y paneles); hacer
+  que las pestañas se abran en un panel determinado según el contenedor en el que se abren
+  (mira la extensión Firefox Multi-Account Container que menciono más arriba); descargar
+  de la memoria pestañas o paneles completos. Es configurable hasta el hartazgo, y esto lo
+  dice alguien que es un loco de configurarlo todo al detalle. Sigo descubriendo nuevas
+  características útiles que mejoran mi uso y disfrute del navegador web.
+
+Actualizaciones:
+
+- 2022-11-19: Reemplazado Metamask con Tally Ho; añadido Sidebery.
