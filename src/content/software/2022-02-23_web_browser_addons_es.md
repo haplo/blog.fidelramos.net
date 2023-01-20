@@ -1,6 +1,6 @@
-Title: Las extensiones de navegador web que uso
+Title: Extensiones de navegador web que uso
 Date: 2022-02-23
-Modified: 2022-11-19
+Modified: 2023-01-20
 Lang: es
 Category: Software
 Tags: firefox,web,extensiones,privacidad,seguridad,criptomoneda
@@ -24,21 +24,16 @@ uso suelen ser muy populares, con miles de usuarios y seleccionadas por los edit
 Sin más dilación, estas son las extensiones que uso actualmente en Firefox, en orden
 alfabético:
 
-- [ClearURLs](https://addons.mozilla.org/firefox/addon/clearurls/): elimina parámetros
-  innecesarios de las URL, como los ubicuos `utm_*` or las largas URL que genera Amazon y
-  que pueden ser recortadas sin pérdida de funcionalidad.
-- [Decentraleyes](https://decentraleyes.org/): muchas páginas web usan recursos de CDN
-  públicas (p.ej. [Google da acceso a muchas librerías
-  Javascript](https://developers.google.com/speed/libraries/)) para ahorrar ancho de banda
-  y/o para servir los recursos más rápidamente. La pega es que el proveedor de la CDN
-  puede ver quién accede a qué página, y eso reduce nuestra privacidad. _Decentraleyes_
-  almacena una copia local de esos recursos de forma que no es necesario hacer peticiones
-  a esas CDN, mejorando así la privacidad.
-- [HTTPS Everywhere](https://www.eff.org/https-everywhere): Un proyecto de la
-  [EFF](https://www.eff.org/) que utiliza conexiones HTTPS siempre que sea posible, y por
-  tanto seguras contra ataques de intercepción (_eavesdropping_) o de intermediario
-  (_middleman_). Es automático y no debería romper ninguna página, así que es recomendable
-  para cualquier usuario.
+- [uBlock Origin](https://ublockorigin.com/): el mejor bloqueador de anuncios que existe
+  (que yo sepa, si conoces alguno mejor por favor házmelo saber). Usa poco procesador y
+  memoria, normalmente ahorra más que consume, dado que las páginas web cargan más rápido
+  sin toda la mierda que suelen incluir (anuncios, rastreadores, etc.). Especialmente en
+  móvil se puede notar mucho. Solía instalar otro puñado de extensiones para mejorar la
+  privacidad (NoScript, ClearURLs, PrivacyBadger, HTTPSEverywhere y DecentralEyes), pero
+  tras leer [este artículo en
+  Arkenfox](https://github.com/arkenfox/user.js/wiki/4.1-Extensions) aprendí que son
+  superfluas si se configura bien uBlock Origin. Y déjame decirte una cosa más: mi Firefox
+  *vuela* después de eliminar esas extensiones.
 - [KeepassXC-Browser](https://keepassxc.org/docs/KeePassXC_GettingStarted.html#_setup_browser_integration):
   Uso [KeepassXC](https://keepassxc.org/) para almacenar mis contraseñas y secretos, esta
   es la extensión oficial para navegadores web, con autocompletado de
@@ -64,23 +59,6 @@ alfabético:
   Google, pero en todos los demás contenedores estoy desconectado. Tengo un puñado de
   contenedores: _Gov_ para páginas del gobierno, _Personal_ para las aplicaciones web
   alojadas en mis propios servidores, _Shopping_ siempre que compro algo...
-- [NoScript](https://noscript.net/): Una extensión muy potente que bloquea la ejecución de
-  _scripts_ en cualquier página, y que permite activarlos selectivamente. Por defecto
-  bloquea todos los _scripts_, y encontrar cuáles son necesarios para que ciertas webs
-  funcionen bien puede llegar a ser pesado, pero creo que merece la pena por la protección
-  que otorga. También incluye guardas contra ataques web como
-  [XSS](https://en.wikipedia.org/wiki/Xss),
-  [Clickjacking](https://en.wikipedia.org/wiki/Clickjacking) o internet-a-intranet.
-- [Privacy Badger](https://privacybadger.org/): otra extensión de la EFF que aprende
-  automáticamente a bloquear rastreadores (_trackers_) invisibles. No necesita apenas
-  mantenimiento, razón por la que la instalo junto con NoScript y uBlock Origin, aunque se
-  solape en gran parte con éstas. Al igual que HTTPS Everywhere no debería romper ninguna
-  página, así que es recomendable para todos los usuarios.
-- [uBlock Origin](https://ublockorigin.com/): el mejor bloqueador de anuncios que existe
-  (que yo sepa, si conoces alguno mejor por favor házmelo saber). Usa poco procesador y
-  memoria, normalmente ahorra más que consume, dado que las páginas web cargan más rápido
-  sin toda la mierda que suelen incluir (anuncios, rastreadores, etc.). Especialmente en
-  móvil se puede notar mucho.
 - [Sidebery](https://addons.mozilla.org/en-US/firefox/addon/sidebery/): un gestor de
   pestañas para Firefox. Si eres como yo y tienes no ya docenas, sino cientos de pestañas
   abiertas, esta extensión lo cambia todo. Tener tantas pestañas abiertas se convierte en
@@ -91,7 +69,14 @@ alfabético:
   de la memoria pestañas o paneles completos. Es configurable hasta el hartazgo, y esto lo
   dice alguien que es un loco de configurarlo todo al detalle. Sigo descubriendo nuevas
   características útiles que mejoran mi uso y disfrute del navegador web.
+- [Skip Redirect](https://addons.mozilla.org/en-US/firefox/addon/skip-redirect/): detecta
+  redirecciones en ciertas páginas y se las salta, para evitar rastreos innecesarios. Por
+  ejemplo si te fijas al buscar algo en Google, cuando vas a un resultado la dirección es
+  la web destino, sino que apunta a Google, y luego te redirecciona al destino. Esta
+  extensión extrae el destino para evitar que Google (o muchos otros servicios) sepa qué
+  resultados visitas.
 
 Actualizaciones:
 
 - 2022-11-19: Reemplazado Metamask con Tally Ho; añadido Sidebery.
+- 2023-01-20: Añadido Skip Redirect; eliminados NoScript, ClearURLs, PrivacyBadger, HTTPSEverywhere, DecentralEyes.
