@@ -1,6 +1,6 @@
 Title: Web browser add-ons I use
 Date: 2022-02-23
-Modified: 2023-01-20
+Modified: 2023-04-20
 Lang: en
 Category: Software
 Tags: firefox,web,addons,privacy,security,cryptocurrency
@@ -39,7 +39,7 @@ alphabetical order:
   official browser extension which enables form autocomplete. It works pretty well
   although not as well as competitors such as Lastpass or 1Password, but I wouldn't trust
   them with my data.
-- [Tally Ho!](https://tallyho.org/): an open-source cryptocurrency wallet, gateway to the
+- [Taho](https://taho.xyz/): an open-source cryptocurrency wallet, gateway to the
   Web 3.0, Dapps, NFTs, ICOs, ERC20 tokens... For me it has replaced Metamask, which is
   closed source. As of Nov 2022 it supports [Ethereum](https://ethereum.org/en/),
   [Polygon](https://polygon.technology/), [Optimism](https://www.optimism.io/) and
@@ -75,3 +75,4 @@ Updates:
 
 - 2022-11-19: Replaced Metamask with Tally Ho; added Sidebery.
 - 2023-01-20: Added Skip Redirect; removed NoScript, ClearURLs, PrivacyBadger, HTTPSEverywhere, DecentralEyes.
+- 2023-04-20: Updated Tally Ho to Taho, they [rebranded in Feb 21, 2023](https://blog.taho.xyz/rename-announcement/).

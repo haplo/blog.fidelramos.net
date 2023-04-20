@@ -1,6 +1,6 @@
 Title: Extensiones de navegador web que uso
 Date: 2022-02-23
-Modified: 2023-01-20
+Modified: 2023-04-20
 Lang: es
 Category: Software
 Tags: firefox,web,extensiones,privacidad,seguridad,criptomoneda
@@ -39,7 +39,7 @@ alfabético:
   es la extensión oficial para navegadores web, con autocompletado de
   formularios. Funciona bastante bien aunque no tanto como competidores como Lastpass o
   1Password, pero no les confiaría mis datos más íntimos a terceros.
-- [Tally Ho!](https://tallyho.org/): una billetera de criptomonedas de código abierto,
+- [Taho](https://taho.xyz/): una billetera de criptomonedas de código abierto,
   abre la puerta a la Web 3.0, Dapps, NFTs, ICOs, tokens ERC20... Para mi ha reemplazado a
   Metamask, que es la opción más popular pero es de código privativo. A noviembre de 2022
   soporta [Ethereum](https://ethereum.org/en/), [Polygon](https://polygon.technology/),
@@ -80,3 +80,4 @@ Actualizaciones:
 
 - 2022-11-19: Reemplazado Metamask con Tally Ho; añadido Sidebery.
 - 2023-01-20: Añadido Skip Redirect; eliminados NoScript, ClearURLs, PrivacyBadger, HTTPSEverywhere, DecentralEyes.
+- 2023-04-20: Tally Ho actualizado a Taho, [cambiaron el nombre de la marca el 21 de febrero de 2023](https://blog.taho.xyz/rename-announcement/).
