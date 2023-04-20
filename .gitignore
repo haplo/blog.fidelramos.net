@@ -1,3 +1,4 @@
 virtualenv
 __pycache__
 .direnv
+.dir-locals.el
