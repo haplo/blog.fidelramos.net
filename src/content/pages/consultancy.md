@@ -16,6 +16,7 @@ Some of the things I can do for you:
 - Assess the code quality, performance, testing and security of your codebase and propose actionable improvements.
 - Implement [automated code quality workflows]({filename}/software/2023-06-20_automating_python_code_quality.md) to reduce bugs and increase developer productivity.
 - Optimize code and DB performance.
+- Analyze tech debt and trace a plan to reduce it.
 - Teach your team about best practices through code reviews and/or live seminars.
 - Optimize testing, CI and deployment pipelines for smoother workflows.
 - Optimize Docker images for build time, image size and security.
