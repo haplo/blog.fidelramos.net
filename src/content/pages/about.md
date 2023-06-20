@@ -9,6 +9,9 @@ Feel free to share or comment (I don't have in-page comments yet, but you can us
 
 If you want to know more details about me including contact information you can visit my [home page](https://fidelramos.net).
 
+I am a consultant on web development, with over 15 years of experience.
+You can read all about my work in my [Consultancy]({filename}/pages/consultancy.md) page.
+
 This being my personal blog I will write about my passions, hobbies and stuff I discover and want to share.
 Some of the [regular topics](/categories#categories) I plan on writing about:
 

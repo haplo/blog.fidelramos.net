@@ -11,6 +11,9 @@ No dudes en compartir o comentar (aunque aún no tengo comentarios en las págin
 
 Si quieres saber más detalles sobre mi, incluyendo información de contacto, puedes visitar mi [página web](https://fidelramos.net).
 
+Soy un consultor experto en desarrollo web con más de 15 años de experiencia.
+Puedes leer todos los detalles sobre mi trabajo en mi página de [Consultoría]({filename}/pages/consultancy.md).
+
 Dado que este es mi blog personal escribiré sobre todo tipo de cosas que me apasionan, mis hobbies o cosas que vaya descubriendo y quiera compartir.
 Algunos de los [temas habituales](/es/categorias#categories) sobre los que pienso escribir son:
 
