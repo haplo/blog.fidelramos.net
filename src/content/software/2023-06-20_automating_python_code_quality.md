@@ -1,10 +1,9 @@
 Title: Automating Python code quality
-Date: 2023-06-20
+Date: 2023-06-23
 Lang: en
 Category: Software
 Tags: programming,python,automation,howto,free-software
 Slug: python-code-quality
-Status: hidden
 
 In this article I explain what I mean by code quality and how it benefits developers.
 
@@ -486,9 +485,9 @@ If you know of a better way of running *mypy* with *pre-commit* I would love to 
 
 # Conclusion
 
-I first gave a short introduction to code quality and why it's important for software projects.
+I first gave a short generic introduction to code quality and why it's important for software projects.
 
-Then I present ready-to-use configurations for my tools of choice for Python programming, and instructions on how to automate the necessary checks to maximize developer productivity and happiness.
+Then I presented ready-to-use configurations using my tools of choice for Python programming, and instructions on how to automate the necessary checks to maximize developer productivity and happiness.
 
 > **Need a Python expert?**
 >
