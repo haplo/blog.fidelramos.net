@@ -49,7 +49,7 @@ But nothing is free, and the downside is obvious: time and effort have to be inv
 
 Fortunately we have a way out: automation.
 
-## Why automate code quality
+## Why automate code quality?
 
 Manually keeping code quality high has a constant level of effort.
 By automating these processes, most of the effort is paid upfront when setting up the tooling.
