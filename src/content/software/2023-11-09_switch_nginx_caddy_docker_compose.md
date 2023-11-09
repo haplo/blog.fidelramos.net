@@ -1,4 +1,4 @@
-Title: Switching Nginx with Caddy in Docker Compose
+Title: Replacing Nginx with Caddy in Docker Compose
 Date: 2023-11-09
 Lang: en
 Category: Software
