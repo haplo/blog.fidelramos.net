@@ -1,5 +1,6 @@
 Title: Migrating to fish shell
 Date: 2023-12-07
+Modified: 2023-12-19
 Lang: en
 Category: Software
 Tags: fish,shell,linux
@@ -245,7 +246,9 @@ I'm purposefully not including screenshots of *fzf.fish* as its README already i
 
 #### foreign-env
 
-[foreign-env](https://github.com/oh-my-fish/plugin-foreign-env) is a little plugin to load *Bash*-syntax exports directly onto fish, without having to instantiate *Bash*.
+[foreign-env](https://github.com/oh-my-fish/plugin-foreign-env) is a little plugin that runs a *Bash* script and imports defined variables in *fish*.
+It calls *Bash* internally, so it's not just a parser.
+
 I use it to source /etc/profile so I can make *fish* my default shell, more details about that in the *Gotchas* section below.
 
 #### Vendoring third-party plugins
@@ -453,6 +456,7 @@ If for example you are looking for PDF files used in the history, you can type `
 - *Alt+H* opens the man page for the current command.
 I don't know about you but I find myself opening new shells to look up man pages for the command I'm trying to use all the time.
 This and *fish* autocomplete are an invaluable help.
+- *Alt+S* prepends or removes `sudo` from the current command.
 - *Alt+O* opens the file under cursor in the `$PAGER`.
 - *Alt+E* or *Alt+V* open the current prompt in the `$EDITOR`.
 Useful for editing multi-line prompts comfortably.
@@ -515,3 +519,7 @@ And sometimes that makes it worth it.
 Looking forward to that Rust rewrite!
 
 Thank you *fish* team!
+
+## Updates
+
+- 2023-12-19: Correct description of *foreign-env* plugin, it does run *Bash* unless originally stated. Add *Alt+S* keybinding.
