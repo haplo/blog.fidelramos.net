@@ -2,7 +2,7 @@ Title: Privacy-respecting self-hosted Web Analytics
 Date: 2022-05-27
 Lang: en
 Category: Software
-Tags: privacy,web,analytics,selfhost
+Tags: privacy,web,analytics,self-hosting
 Slug: privacy-respecting-self-hosted-web-analytics
 
 It all started with a desire: I wanted some basic analytics for this blog to know how it's

@@ -2,7 +2,7 @@ Title: Analítica web en tu servidor y respetuosa con la privacidad
 Date: 2022-05-27
 Lang: es
 Category: Software
-Tags: privacy,web,analytics,selfhost
+Tags: privacy,web,analytics,self-hosting
 Slug: privacy-respecting-self-hosted-web-analytics
 
 Todo empezó con un anhelo: quería tener algunas analíticas básicas de este blog para saber

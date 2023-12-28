@@ -2,7 +2,7 @@ Title: Nextcloud CardDAV and CalDAV discovery with DNS records
 Date: 2022-02-17
 Lang: en
 Category: Software
-Tags: nextcloud,howto,selfhost,dns
+Tags: nextcloud,howto,self-hosting,dns
 Slug: nextcloud-caldav-carddav-dns
 
 I use a self-hosted Nextcloud instance to hold a lot of my personal data, and that
