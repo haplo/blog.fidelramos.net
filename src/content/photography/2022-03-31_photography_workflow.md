@@ -231,8 +231,8 @@ mistakes:
 ]({static}/images/photography_workflow/syncthing_file_versioning.png)
 
 The home server has 4 HDDs, one of which is set up for parity with
-[SnapRAID](https://www.snapraid.it/) for fault tolerance. I won't get into details of my
-home server setup, that would be worthy of a different blog post.
+[SnapRAID](https://www.snapraid.it/) for fault tolerance. For details about my home server
+setup check out [my homelab article]({filename}/software/2023-12-29_homelab.md).
 
 ## 6. Backup with restic
 
@@ -276,3 +276,4 @@ https://fidelramos.net/) for contact information.
 
 - 2022-04-05: Fixed RawTherapee name. Thank you for the [hilarious comments, Hacker
   News](https://news.ycombinator.com/item?id=30918149).
+- 2024-01-01: Included link to homelab article.

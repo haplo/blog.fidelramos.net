@@ -251,8 +251,9 @@ recuperación en caso de borrados o alteraciones erróneas:
 ]({static}/images/photography_workflow/syncthing_file_versioning.png)
 
 Mi servidor casero tiene 4 discos duros, uno de los cuales está configurado como paridad
-usando [SnapRAID](https://www.snapraid.it/) para tolerancia a errores. No voy a entrar en
-detalles sobre la configuración de mi servidor casero, eso merecería un artículo aparte.
+usando [SnapRAID](https://www.snapraid.it/) para tolerancia a errores.  Puedes encontrar
+más detalles sobre la configuración de mi servidor casero en [mi artículo sobre mi
+homelab]({filename}/software/2023-12-29_homelab.md) (en inglés).
 
 ## 6. Copia de seguridad con restic
 
@@ -303,3 +304,4 @@ enviarme un mensaje por redes sociales, o un email. Puedes ver mis datos de cont
 
 - 2022-04-05: Corregido el nombre de RawTherapee. Gracias por los [desternillantes
   comentarios, Hacker News](https://news.ycombinator.com/item?id=30918149).
+- 2024-01-01: Incluido enlace al artículo del homelab.
