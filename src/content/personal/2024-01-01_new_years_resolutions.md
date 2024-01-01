@@ -4,9 +4,8 @@ Lang: en
 Category: Personal
 Tags: personal
 Slug: new-years-resolutions-2024
-Status: Hidden
 
-I have been reflecting on life for several months, perhaps I am experiencing my particular midlife crisis.
+I have been reflecting on life for several months, perhaps I am going through my particular midlife crisis.
 
 This year 2024 I want to do my part to correct what is in my power (and worry less about what is not in my power), hence this list of New Year's resolutions.
 
@@ -33,7 +32,7 @@ I tried to keep in touch with several friends, but they did not reciprocate.
 - I feel that some friends have left me aside because of my ideologies.
 I can't be sure but it saddens me to think this is the case.
 
-I will try to dedicate my efforts to worthwhile friendships, who show me that they respect me and that they care about me as much as they do to me.
+I will try to focus my efforts on worthwhile friendships, who show me respect and that they care about me as much as I do about them.
 No hard feelings, life changes and is complicated for everyone.
 
 ## Consulting
@@ -60,17 +59,18 @@ A first objective is to automate the translation of my blog articles, with manua
 
 I have been passionate about cryptocurrencies for many years, but I have never gotten involved as a developer, something I regret.
 
-This year I want to start collaborating as a programmer in related projects, especially those that focus on cryptocurrencies as means of payment.
+This year I want to start collaborating as a programmer in some projects, especially those that focus on cryptocurrencies as means of payment.
 
-I will also make more efforts to use cryptocurrencies on a daily basis, inspired by [Joel Valenzuela](https://cointr.ee/thedesertlynx).
+I will also take steps to use cryptocurrencies on a daily basis, inspired by [Joel Valenzuela](https://cointr.ee/thedesertlynx).
 
-## Moderate ideological efforts
+## Reduce ideological efforts
 
 Those who have known me for a long time are aware that my ideology has changed radically in the last 10 years.
 I suspect that many see it as a betrayal of my principles, or having become someone else.
 In my view it is a natural evolution as a result of educating myself and reflecting on topics to which I had not been exposed before.
 
-What I have been realizing is the mental and emotional effort of opposing the hegemonic zeitgeist.
+What I wasn't anticipating is the mental and emotional effort of opposing the hegemonic zeitgeist.
+This is something that has taken a toll on my happiness and mental health.
 It would be easy to bow to the majority and return to the fold, to avoid arguments and fights, but I think I would feel bad about myself for intellectual dishonesty.
 
 My resolution is on the one hand to worry less about my purity, but on the other to be firm when it comes time to debate.

@@ -1,16 +1,15 @@
-Title: Resoluciones de Año Nuevo para 2024
+Title: Propósitos de Año Nuevo para 2024
 Date: 2024-01-01
 Lang: es
 Category: Personal
 Tags: personal
-Slug: resoluciones-año-nuevo-2024
-Status: Hidden
+Slug: new-years-resolutions-2024
 
 Llevo varios meses reflexionando sobre la vida, quizá estoy viviendo mi particular crisis de la mediana edad.
 
-Este año 2024 quiero poner de mi parte para corregir aquello que esté en mi mano (y preocuparme menos por lo que no), de ahí esta lista de resoluciones de Año Nuevo.
+Este año 2024 quiero poner de mi parte para corregir aquello que esté en mi mano (y preocuparme menos por lo que no), de ahí esta lista de propósitos de Año Nuevo.
 
-Publicar mis resoluciones tiene un propósito doble:
+Publicar estos propósitos tiene un propósito doble:
 
 1. Que la gente entienda mis prioridades y las razones que las motivan.
 2. Mantener mi enfoque a lo largo del año gracias a la presión social.
@@ -70,10 +69,10 @@ Quienes me conocen desde hace tiempo saben que mi ideología ha cambiado radical
 Sospecho que muchos lo vean como una traición a mis principios, o el haberme convertido en otra persona.
 A mi modo de ver es una evolución natural producto de educarme y reflexionar sobre temas a los que no había estado expuesto con anterioridad.
 
-Lo que me he ido dando cuenta es del esfuerzo mental y emocional de oponerse al zeitgeist hegemónico.
+Lo que no anticipaba era el esfuerzo mental y emocional de oponerse al zeitgeist hegemónico, es algo que me ha pasado factura en cuanto a felicidad y salud mental.
 Sería fácil plegarme a la mayoría y volver al redil, evitar discusiones y peleas, pero creo que me sentiría mal conmigo mismo por la deshonestidad intelectual.
 
-Mi resolución es por un lado preocuparme menos sobre mi pureza, pero por otro ser firme cuando toque debatir.
+Mi propósito es por un lado preocuparme menos sobre mi pureza, pero por otro ser firme cuando toque debatir.
 Una cosa son las ideas que tenga y otra es que no quiera o pueda dedicarle mayores esfuerzos en sostenerlas en oposición a casi toda la sociedad.
 
 Sí que me enfocaré en educar a mis hijos en los valores que quiero ver en el mundo.
