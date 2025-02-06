@@ -120,6 +120,12 @@ DEFAULT_LANG = "en"
 # use "locale -a" in GNU/Linux to see available locales
 LOCALE = ["en_US.utf8", "es_ES.utf8"]
 
+ISSO_URL = "//isso.fidelramos.net"
+ISSO_OPTIONS = {
+    "page-author-hashes": "",
+    "vote": "false",
+}
+
 I18N_SUBSITES = {
     "es": {
         "SITEDESCRIPTION": "Blog personal de Fidel Ramos",
