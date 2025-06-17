@@ -93,8 +93,6 @@ USE_GOOGLE_FONTS = False
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-# PLUGIN_PATHS *MUST* be strings, otherwise plugins will fail to import
-PLUGIN_PATHS = ["../../pelican-plugins"]
 PLUGINS = ["i18n_subsites"]
 
 JINJA_ENVIRONMENT = {

@@ -1,2 +1,3 @@
 pelican[markdown]
+pelican-i18n-subsites
 markdown-captions
