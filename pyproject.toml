@@ -1,0 +1,9 @@
+[project]
+name = "blog-fidelramos-net"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "markdown-captions>=2.1.2",
+    "pelican-i18n-subsites>=1.0.0",
+    "pelican[markdown]>=4.11.0",
+]
