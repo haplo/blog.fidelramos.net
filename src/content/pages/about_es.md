@@ -7,19 +7,18 @@ Url: paginas/acerca
 Parece que has encontrado mi blog.
 ¡Bienvenido!
 Espero que encuentres algo interesante.
-No dudes en compartir o comentar (aunque aún no tengo comentarios en las páginas, pero puedes usar [Twitter](https://twitter.com/ampajaro) o [Mastodon](https://mastodon.social/@fidel) mencionarme).
+No dudes en compartir o comentar, me encanta .
+También tengo [Twitter](https://twitter.com/ampajaro) y [Mastodon](https://mastodon.social/@fidel)).
 
 Si quieres saber más detalles sobre mi, incluyendo información de contacto, puedes visitar mi [página web](https://fidelramos.net).
-
-Soy un consultor experto en desarrollo web con más de 15 años de experiencia.
-Puedes leer todos los detalles sobre mi trabajo en mi página de [Consultoría]({filename}/pages/consultancy.md).
 
 Dado que este es mi blog personal escribiré sobre todo tipo de cosas que me apasionan, mis hobbies o cosas que vaya descubriendo y quiera compartir.
 Algunos de los [temas habituales](/es/categorias#categories) sobre los que pienso escribir son:
 
+* [Temas personales](/es/categorias/personal) y reflexiones sobre la vida.
 * [Programación / Software Libre / Ingeniería de Software / Ordenadores en general](/es/categorias/software)
 * Economía / Política
-* Criptomonedas y tecnologías decentralizadas
+* [Criptomonedas](/es/categorias/cryptocurrency) y tecnologías decentralizadas
 * [Fotografía](/es/categorias/photography)
 
 Otro de los objetivos de este blog es exponer ideas y opiniones en un formato más largo, dado que las conversaciones en las redes sociales tienden a ser en mensajes cortos en los cuales es difícil entender y hacerse entender sin demasiadas ambigüedades.
