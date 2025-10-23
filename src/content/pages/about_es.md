@@ -8,7 +8,7 @@ Parece que has encontrado mi blog.
 ¡Bienvenido!
 Espero que encuentres algo interesante.
 No dudes en compartir o comentar, me encanta .
-También tengo [Twitter](https://twitter.com/ampajaro) y [Mastodon](https://mastodon.social/@fidel)).
+También tengo [X](https://x.com/ampajaro) y [Mastodon](https://mastodon.social/@fidel)).
 
 Si quieres saber más detalles sobre mi, incluyendo información de contacto, puedes visitar mi [página web](https://fidelramos.net).
 

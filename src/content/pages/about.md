@@ -6,7 +6,7 @@ It looks like you have stumbled upon my blog.
 Welcome!
 I hope you will find something interesting.
 Feel free to share or comment, I love hearing from readers.
-You can also find me on [Twitter](https://twitter.com/ampajaro) and [Mastodon](https://mastodon.social/@fidel).
+You can also find me on [X](https://x.com/ampajaro) and [Mastodon](https://mastodon.social/@fidel).
 
 If you want to know more details about me including contact information you can visit my [home page](https://fidelramos.net).
 
