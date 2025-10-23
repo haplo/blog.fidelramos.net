@@ -8,10 +8,10 @@ Este artículo explica las [ventajas de RSS](https://picandocodigo.net/2024/razo
 
 Para tu conveniencia aquí están todos los listados a los que te puedes suscribir en este blog:
 
-- Todo el contenido: [RSS](/es/feeds/es.rss.xml) / [ATOM](/es/feeds/es.atom.xml)
-- Categoría Personal: [RSS](/es/feeds/personal.rss.xml) / [ATOM](/es/feeds/personal.atom.xml)
-- Categoría Criptomonedas: [RSS](/es/feeds/cryptocurrency.rss.xml) / [ATOM](/es/feeds/cryptocurrency.atom.xml)
-- Categoría Fotografía: [RSS](/es/feeds/photography.rss.xml) / [ATOM](/es/feeds/photography.atom.xml)
-- Categoría Software: [RSS](/es/feeds/software.rss.xml) / [ATOM](/es/feeds/software.atom.xml)
+- Todo el contenido: [RSS](/es/feeds/es.rss.xml) / [Atom](/es/feeds/es.atom.xml)
+- Categoría Personal: [RSS](/es/feeds/personal.rss.xml) / [Atom](/es/feeds/personal.atom.xml)
+- Categoría Criptomonedas: [RSS](/es/feeds/cryptocurrency.rss.xml) / [Atom](/es/feeds/cryptocurrency.atom.xml)
+- Categoría Fotografía: [RSS](/es/feeds/photography.rss.xml) / [Atom](/es/feeds/photography.atom.xml)
+- Categoría Software: [RSS](/es/feeds/software.rss.xml) / [Atom](/es/feeds/software.atom.xml)
 
 También puedes seguirme en [X](https://x.com/ampajaro) y [Mastodon](https://mastodon.social/@fidel), anuncio todos mis nuevos artículos, pero también escribo otras cosas.

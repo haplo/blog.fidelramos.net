@@ -8,10 +8,10 @@ This article explains the [advantages of RSS](https://news.itsfoss.com/why-use-r
 
 For your convenience, here are all the feeds you can subscribe to on this blog:
 
-- All content: [RSS](/feeds/en.rss.xml) / [ATOM](/feeds/en.atom.xml)
-- Personal category: [RSS](/feeds/personal.rss.xml) / [ATOM](/feeds/personal.atom.xml)
-- Cryptocurrency category: [RSS](/feeds/cryptocurrency.rss.xml) / [ATOM](/feeds/cryptocurrency.atom.xml)
-- Photography Category: [RSS](/feeds/photography.rss.xml) / [ATOM](/feeds/photography.atom.xml)
-- Software Category: [RSS](/feeds/software.rss.xml) / [ATOM](/feeds/software.atom.xml)
+- All content: [RSS](/feeds/en.rss.xml) / [Atom](/feeds/en.atom.xml)
+- Personal category: [RSS](/feeds/personal.rss.xml) / [Atom](/feeds/personal.atom.xml)
+- Cryptocurrency category: [RSS](/feeds/cryptocurrency.rss.xml) / [Atom](/feeds/cryptocurrency.atom.xml)
+- Photography Category: [RSS](/feeds/photography.rss.xml) / [Atom](/feeds/photography.atom.xml)
+- Software Category: [RSS](/feeds/software.rss.xml) / [Atom](/feeds/software.atom.xml)
 
 You can also follow me on [X](https://x.com/ampajaro) and [Mastodon](https://mastodon.social/@fidel), where I announce all my new articles, but I also write about other things.
