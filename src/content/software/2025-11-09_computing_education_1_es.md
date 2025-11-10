@@ -1,4 +1,4 @@
-Title: Educación responsable en computación
+Title: Educación responsable en informática
 Date: 2025-11-09
 Lang: es
 Category: Software
