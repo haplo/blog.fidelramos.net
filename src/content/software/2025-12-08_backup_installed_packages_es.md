@@ -1,4 +1,4 @@
-Title: Periodic script to back up installed OS packages
+Title: Respaldo automático periódico de los paquetes instalados en el SO
 Date: 2025-12-08
 Lang: es
 Category: Software
