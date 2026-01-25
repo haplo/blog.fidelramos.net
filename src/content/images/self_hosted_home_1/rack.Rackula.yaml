@@ -1,0 +1,126 @@
+version: 0.6.16
+name: Self-hosted Home
+rack:
+  name: Self-hosted Home
+  height: 42
+  width: 19
+  desc_units: false
+  form_factor: 4-post-cabinet
+  starting_unit: 1
+  position: 0
+  devices:
+    - id: eef17586-1e58-411a-8cb5-62bb231e39c1
+      device_type: 24-port-patch-panel
+      position: 42
+      face: front
+    - id: 1d1f8420-b90c-4061-bcc4-e4db905d648f
+      device_type: poweredge-r7515
+      position: 30
+      face: both
+    - id: 66042a8b-70e3-461e-ba12-5f40dd456ecf
+      device_type: 24-port-patch-panel
+      position: 39
+      face: front
+    - id: 22c26426-dd6a-4775-83c0-a08463052a65
+      device_type: 2u-ups
+      position: 25
+      face: both
+    - id: 4cc6f437-f8ed-41cb-aa14-eb3673431ab5
+      device_type: 3u-blank
+      name: Solar battery
+      position: 1
+      face: front
+    - id: 63357cf2-158a-4c41-94ad-f7ac8c228086
+      device_type: 3u-blank
+      name: Solar battery
+      position: 4
+      face: front
+    - id: 95b51be8-1d97-4673-8957-9fd3636e0e64
+      device_type: 3u-blank
+      name: Solar battery
+      position: 7
+      face: front
+    - id: 9325c2f1-a460-4d34-a046-ca858cbb0520
+      device_type: 3u-blank
+      name: Solar battery
+      position: 10
+      face: front
+    - id: e54d0452-31b5-4704-9f66-fba8eec4f302
+      device_type: 3u-blank
+      name: Solar battery
+      position: 13
+      face: front
+    - id: 732f46f3-92dd-4996-a320-cd9c8c4d1993
+      device_type: 3u-blank
+      name: Solar battery
+      position: 16
+      face: front
+    - id: 8b29210a-a7ac-4152-8bb7-b9e903c95b59
+      device_type: ubiquiti-unifi-switch-24-pro-poe-gen2
+      position: 38
+      face: front
+    - id: b40fc4ae-3506-44eb-af6d-5b79c64dacd5
+      device_type: 24-port-switch
+      name: Switch (24-Port PoE)
+      position: 41
+      face: both
+    - id: 33362638-d4db-4d94-b387-ed8631411388
+      device_type: sys-5018d-fn8t
+      name: IPFire router/firewall
+      position: 35
+      face: front
+device_types:
+  - slug: 24-port-patch-panel
+    model: Patch Panel (24-Port)
+    u_height: 1
+    is_full_depth: false
+    colour: "#6272A4"
+    category: patch-panel
+  - slug: poweredge-r7515
+    manufacturer: Dell
+    model: PowerEdge R7515
+    u_height: 2
+    is_full_depth: true
+    colour: "#4A7A8A"
+    category: server
+  - slug: 2u-ups
+    model: UPS
+    u_height: 2
+    colour: "#A84A4A"
+    category: power
+  - slug: 4u-blank
+    model: Blank Panel
+    u_height: 4
+    is_full_depth: false
+    colour: "#44475A"
+    category: blank
+  - slug: 3u-blank
+    model: Blank Panel
+    u_height: 3
+    is_full_depth: false
+    colour: "#44475A"
+    category: blank
+  - slug: ubiquiti-unifi-switch-24-pro-poe-gen2
+    manufacturer: Ubiquiti
+    model: USW-Pro-24-PoE
+    u_height: 1
+    is_full_depth: false
+    front_image: true
+    rear_image: true
+    colour: "#7B6BA8"
+    category: network
+  - slug: 24-port-switch
+    model: Switch (24-Port)
+    u_height: 1
+    colour: "#7B6BA8"
+    category: network
+  - slug: sys-5018d-fn8t
+    manufacturer: Supermicro
+    model: SYS-5018D-FN8T
+    u_height: 1
+    is_full_depth: false
+    colour: "#4A7A8A"
+    category: server
+settings:
+  display_mode: label
+  show_labels_on_images: false
