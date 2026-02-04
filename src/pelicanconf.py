@@ -121,6 +121,8 @@ LOCALE = ["en_US.utf8", "es_ES.utf8"]
 ISSO_URL = "//isso.fidelramos.net"
 ISSO_OPTIONS = {
     "page-author-hashes": "46a0eeac137c",
+    "reply-notifications": "true",
+    "reply-notifications-default-enabled": "true",
     "vote": "false",
 }
 
