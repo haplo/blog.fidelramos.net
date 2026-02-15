@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.12"
 
 [[package]]
@@ -33,6 +33,7 @@ dependencies = [
     { name = "markdown-captions" },
     { name = "pelican", extra = ["markdown"] },
     { name = "pelican-i18n-subsites" },
+    { name = "pelican-theme-reflex" },
 ]
 
 [package.metadata]
@@ -40,6 +41,7 @@ requires-dist = [
     { name = "markdown-captions", specifier = ">=2.1.2" },
     { name = "pelican", extras = ["markdown"], specifier = ">=4.11.0" },
     { name = "pelican-i18n-subsites", specifier = ">=1.0.0" },
+    { name = "pelican-theme-reflex", specifier = ">=3.0.3" },
 ]
 
 [[package]]
@@ -207,6 +209,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/ce/1e/e5b862b9fca0d792ee61ab0af7f0d05471587983141fcf59a03d58dd7bcb/pelican_i18n_subsites-1.0.0.tar.gz", hash = "sha256:fdde5b23b79ceea9b2b640695eceb666e66688ba618a9aa9f99053e546092e93", size = 13550, upload-time = "2025-05-26T19:16:39.346Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b8/2a/67872fc6bf3b89d47128b86ab8218a077c11dc89e08175450db47d435167/pelican_i18n_subsites-1.0.0-py3-none-any.whl", hash = "sha256:443818256caea963c58c95de13c687bc064f84ddd879ce10f13c108b08e4bd0d", size = 11914, upload-time = "2025-05-26T19:16:38.123Z" },
+]
+
+[[package]]
+name = "pelican-theme-reflex"
+version = "3.0.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/09/14/f7ce2f5a39cb0ab29b41f248ef91416a240e966f168487c4e77cd49eec44/pelican_theme_reflex-3.0.3.tar.gz", hash = "sha256:967e418c3d185362d3a5943d06a824cfc2c35a14cb6c9971a3178432dc31888d", size = 1552786, upload-time = "2026-02-15T22:20:51.367Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/57/15/2c1079b403683d4f46d3d62f34f269f36825456d753ee3c8143b891b469b/pelican_theme_reflex-3.0.3-py3-none-any.whl", hash = "sha256:4cb608c0a254a42e38d2e51322dab17ce16aff3f6baeaddc40dd2414b5c485e0", size = 1699571, upload-time = "2026-02-15T22:20:49.432Z" },
 ]
 
 [[package]]

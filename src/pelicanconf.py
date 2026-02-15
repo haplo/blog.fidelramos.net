@@ -75,7 +75,10 @@ DEFAULT_PAGINATION = 10
 
 ROBOTS = "index,follow"
 
-THEME = "../../pelican-theme-reflex"
+from pelican.themes import reflex
+THEME = reflex.path()
+#for Reflex development
+#THEME = "../../pelican-theme-reflex/pelican/themes/reflex"
 EXTRA_PATH_METADATA = {
     "extra/custom.css": {"path": "static/custom.css"},
 }
