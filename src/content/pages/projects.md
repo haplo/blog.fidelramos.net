@@ -6,8 +6,14 @@ Ongoing projects
 ----------------
 
 - [This blog](https://github.com/haplo/blog.fidelramos.net).
-- My [dotfiles repo](https://github.com/haplo/dotfiles).
-- [My Emacs configuration](https://github.com/haplo/prelude), based on
+- [Reflex](https://github.com/haplo/pelican-theme-reflex/), the Pelican theme  powering this blog. Read [the announcement post]({filename}/software/2026-02-16_announcing_reflex_theme.md).
+- [My dotfiles repo](https://github.com/haplo/dotfiles).
+- [My Emacs configuration](https://github.com/haplo/dotemacs).
+
+Old and discontinued projects
+-----------------------------
+
+- [My old Emacs configuration](https://github.com/haplo/prelude), based on
   [prelude](https://github.com/bbatsov/prelude).
 - [python-lsp-black](https://github.com/python-lsp/python-lsp-black/), a plugin for
   [python-lsp-server](https://github.com/python-lsp/python-lsp-server) to format Python
@@ -17,10 +23,6 @@ Ongoing projects
   complete revamp of the app: improved the importer to work with any
   `Page` subclass, added a full unit test suite and other useful
   features like streaming support for the CSV exporting.
-
-Old and discontinued projects
------------------------------
-
 - [serpyco](https://github.com/haplo/serpyco), a file renamer using
   EXIF information.
 - [randomizeitor](https://github.com/haplo/randomizeitor), a GNOME
@@ -35,7 +37,7 @@ Free software contributions
 - Performance improvements to [Wagtail](https://wagtail.io/), a
   popular Django CMS app.
 - Several improvements to [Pelican Flex
-  theme](https://github.com/alexandrevicenzi/Flex/), the theme I chose
+  theme](https://github.com/alexandrevicenzi/Flex/), the theme previously used
   for this blog.
 - Lastpass import feature for
   [yith-library-cli](https://github.com/haplo/yith-library-cli).

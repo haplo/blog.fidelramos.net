@@ -8,8 +8,14 @@ Proyectos en activo
 -------------------
 
 - [Este blog](https://github.com/haplo/blog.fidelramos.net).
-- Mi [repositorio de dotfiles](https://github.com/haplo/dotfiles).
-- [Mi configuración de Emacs](https://github.com/haplo/prelude),
+- [Reflex](https://github.com/haplo/pelican-theme-reflex/), el tema de Pelican que usa este blog. Lee [el artículo de anuncio]({filename}/software/2026-02-16_announcing_reflex_theme_es.md).
+- [Mi repositorio de ficheros de configuración](https://github.com/haplo/dotfiles) (*dotfiles*).
+- [Mi configuración de Emacs](https://github.com/haplo/dotemacs).
+
+Proyectos viejos y abandonados
+------------------------------
+
+- [Mi antigua configuración de Emacs](https://github.com/haplo/prelude),
   basada en [prelude](https://github.com/bbatsov/prelude).
 - [python-lsp-black](https://github.com/python-lsp/python-lsp-black/), un plugin para
   [python-lsp-server](https://github.com/python-lsp/python-lsp-server) que formatea código
@@ -21,10 +27,6 @@ Proyectos en activo
   `Page`, añadí una batería completa de tests unitarios y otras
   características útiles como soporte de streaming para la exportación
   CSV..
-
-Proyectos viejos y abandonados
-------------------------------
-
 - [serpyco](https://github.com/haplo/serpyco), un renombrador de
   ficheros usando información EXIF.
 - [randomizeitor](https://github.com/haplo/randomizeitor), un
