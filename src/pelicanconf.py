@@ -78,7 +78,7 @@ ROBOTS = "index,follow"
 from pelican.themes import reflex
 THEME = reflex.path()
 #for Reflex development
-#THEME = "../../pelican-theme-reflex/pelican/themes/reflex"
+#THEME = "../../pelican-theme-reflex/"
 EXTRA_PATH_METADATA = {
     "extra/custom.css": {"path": "static/custom.css"},
 }
