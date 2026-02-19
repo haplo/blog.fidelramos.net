@@ -1,5 +1,6 @@
 Title: Anunciando Reflex, un tema para Pelican
 Date: 2026-02-16
+Modified: 2026-02-19
 Lang: es
 Category: Software
 Tags: free-software,pelican
@@ -24,14 +25,17 @@ Después de pensarlo un poco, decidí hacer un *fork* del tema para introducir m
 
 Las **principales diferencias con Flex** por ahora son:
 
+- Instalable vía PyPI (o sea que funciona `pip install pelican-theme-reflex`).
 - Estilo para la tabla de contenidos creada por la extensión de Markdown *toc*.
 - Estilos para los elementos HTML `figure` y `figcaption`.
 - Soporte para analíticas de tráfico con Shynet (ver [mi artículo sobre comentarios autoalojados]({filename}2025-02-10_self_hosted_comments_es.md)).
 - Documentación en el propio repositorio en lugar de en la wiki de Github.
 - Visualización de banderas de idioma para los idiomas alternativos del artículo.
 - Icono de la red social X.
-- Mejoras en la experiencia de desarrollo: soporte para `gulp watch` para ver cambios al instante, *AGENTS.md* para el desarrollo con IA, flujos de trabajo con GitHub Actions renovados.
+- Mejoras en la experiencia de desarrollo: soporte para `gulp watch` para ver cambios al instante, chequeos de *pre-commit*, *AGENTS.md* para el desarrollo con IA, flujos de trabajo con GitHub Actions renovados.
 - Estilos de Pygments y FontAwesome actualizados.
+- Mejoras de accesibilidad.
+- Actualizada la integración de comentarios de Isso, con soporte para resaltar los comentarios del autor y notificaciones de respuesta por defecto.
 
 No tengo grandes planes para Reflex, principalmente implementaré los cambios que me parezcan útiles para este blog.
 Estoy abierto a nuevas integraciones e ideas, ¡así que bienvenidos sean los colaboradores!
@@ -40,3 +44,5 @@ Para ver los errores conocidos y las funcionalidades planeadas, echa un vistazo 
 Para cualquier pregunta, no dudes en abrir un [hilo de discusión](https://github.com/haplo/pelican-theme-reflex/discussions).
 
 Si usas Reflex, anímate a añadir tu sitio a la [lista de usuarios de Reflex](https://github.com/haplo/pelican-theme-reflex?tab=readme-ov-file#sites-using-reflex), ¡me encantaría saber de ti!
+
+**Actualización del 19 de febrero de 2016**: Se publicó [Reflex 3.1.0](https://haplo.github.io/pelican-theme-reflex/reflex-3.1.0.html) con algunas mejoras adicionales.

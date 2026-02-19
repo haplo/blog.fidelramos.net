@@ -1,5 +1,6 @@
 Title: Announcing Reflex, a Pelican theme
 Date: 2026-02-16
+Modified: 2026-02-19
 Lang: en
 Category: Software
 Tags: free-software,pelican
@@ -25,14 +26,17 @@ After some thinking I decided to fork the theme to introduce my more breaking ch
 
 The **main differences with Flex** for now:
 
+- Installable via PyPI (so `pip install pelican-theme-reflex` works).
 - Style for Table of Contents created by the *toc* markdown extension.
 - Styles for `figure` and `figcaption` HTML elements.
 - Shynet tracking support (see [my article on self-hosted comments]({filename}2025-02-10_self_hosted_comments.md)).
 - In-repo documentation instead of Github wiki.
 - Display language flags for alternative article languages.
 - X social icon.
-- Improvements to developer experience: gulp watch support for instant changes, AGENTS.md for AI development, revamped GitHub Actions workflows.
+- Improvements to developer experience: gulp watch support for instant changes, *pre-commit* hooks, AGENTS.md for AI development, revamped GitHub Actions workflows.
 - Updated Pygments styles and FontAwesome.
+- Accessibility improvements.
+- Updated Isso comments integration, with support for highlighting comments by the author and reply notifications by default.
 
 I don't have a long roadmap planned for Reflex, I will mostly implement changes that I find useful for this blog.
 I'm open to new integrations and ideas, so collaborators are welcome!
@@ -41,3 +45,5 @@ For known bugs and planned features take a look at the [open issues](https://git
 For any questions feel free to open a [discussion](https://github.com/haplo/pelican-theme-reflex/discussions).
 
 If you use Reflex feel free to add your site to the [list of Reflex users](https://github.com/haplo/pelican-theme-reflex?tab=readme-ov-file#sites-using-reflex), I would love to hear from you!
+
+**Update Feb 19th 2016**: [Reflex 3.1.0](https://haplo.github.io/pelican-theme-reflex/reflex-3.1.0.html) was released with a few extra improvements.
