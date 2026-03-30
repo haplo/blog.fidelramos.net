@@ -488,11 +488,3 @@ If you know of a better way of running *mypy* with *pre-commit* I would love to 
 I first gave a short generic introduction to code quality and why it's important for software projects.
 
 Then I presented ready-to-use configurations using my tools of choice for Python programming, and instructions on how to automate the necessary checks to maximize developer productivity and happiness.
-
-> **Need a Python expert?**
->
-> With over 15 years of experience building large web projects and a proven track record on Silicon Valley start-ups I can help you take your project to the next level.
->
-> Read all the details in my [Consultancy]({filename}/pages/consultancy.md) page.
->
-> Contact me at <a href="mailto:fidel@openwebconsulting.com">fidel@openwebconsulting.com</a>.
