@@ -4,7 +4,7 @@ Lang: en
 Category: Personal
 Tags: personal
 Slug: new-years-resolutions-2025-review
-Summary: We are about (okay come on, already past) halfway through the year, so it's a good time to assess progress on my [resolutions for 2025]({filename}2025-01-04_new_years_resolutions_en.md).
+Summary: We are about (okay come on, already past) halfway through the year, so it's a good time to assess progress on my [resolutions for 2025]({filename}2025-01-04_new_years_resolutions.md).
 
 We are about (okay come on, already past) halfway through the year, so it's a good time to assess progress on my [resolutions for 2025]({filename}2025-01-04_new_years_resolutions.md).
 
