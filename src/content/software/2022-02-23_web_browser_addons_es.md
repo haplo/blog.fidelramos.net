@@ -6,23 +6,34 @@ Category: Software
 Tags: firefox,web,extensiones,privacidad,seguridad,criptomoneda
 Slug: web-browser-addons
 
-Este artículo recopila las extensiones de navegador web que uso, y por qué. Lo actualizaré
-de vez en cuando.
+Este artículo enumera las extensiones de navegador web que utilizo y por qué.
+Lo mantendré actualizado de vez en cuando.
 
-Uso [Firefox](https://www.mozilla.org/en-US/firefox/new/) como mi navegador web de
-cabecera, porque pese a sus limitaciones sigue siendo la mejor opción disponible para mí,
-por razones que darían para otro artículo. Algunas de estas extensiones están disponibles
-para otros navegadores. Cuando sea apropiado enlazaré a la web principal del proyecto.
+Este artículo enumera las extensiones de navegador web que utilizo y por qué.
+Lo mantendré actualizado de vez en cuando.
 
-Procuro ser cuidadoso con las extensiones que instalo, dado que tienen acceso a casi todos
-los datos del navegador, así que si fuese comprometida se podría convertir en una
-pesadilla si por ejemplo consiguiese robar las credenciales de mi cuenta de correo
-electrónico (aunque la A2F debería reducir ese riesgo). Por esta razón no uso muchas
-extensiones que son potencialmente útiles pero que tampoco es que me hagan falta. Las que
-uso suelen ser muy populares, con miles de usuarios y seleccionadas por los editores.
+Actualmente uso [Brave](https://brave.com/) como mi navegador web principal, y es el que recomiendo a todo el mundo.
+Ofrece una gran experiencia por defecto, con características como un bloqueador de anuncios integrado, integración con [Tor](https://en.wikipedia.org/wiki/Tor_(network)) incorporada, pestañas verticales y agrupadas, una cartera de criptomonedas decente, soporte para [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System), [videollamadas](https://talk.brave.com/) integradas.
+La experiencia lista para usar es mejor que las alternativas en mi opinión, especialmente para los usuarios habituales que no saben o no quieren trastear con su software.
 
-Sin más dilación, estas son las extensiones que uso actualmente en Firefox, en orden
-alfabético:
+Anteriormente usaba [Firefox](https://www.mozilla.org/en-US/firefox/new/).
+Aprecio que sea el único navegador importante con su propio motor de renderizado (Gecko) que no está basado en el hegemónico WebKit que es la base de prácticamente todos los demás navegadores web.
+Como desarrollador web sé lo peligroso que es tener un monocultivo en torno a un único motor de navegador web, que es lo que sufrimos a finales de los 90 y principios de los 2000 con Internet Explorer.
+
+Intento tener cuidado con las extensiones de navegador que instalo, ya que tienen un acceso profundo a los datos del navegador.
+Esto significa que un complemento malicioso o comprometido puede convertirse rápidamente en una pesadilla si consigue, por ejemplo, robar las credenciales de mi cuenta de correo electrónico (aunque el 2FA debería mitigar ese riesgo).
+Por esta razón sopeso cuidadosamente la utilidad de los complementos frente a ese riesgo.
+Los que utilizo suelen ser populares, con miles de usuarios y a menudo seleccionados por los editores.
+
+Sin más dilación, estos son los complementos que estoy usando actualmente en Brave:
+
+- [KeepassXC-Browser](https://keepassxc.org/docs/KeePassXC_GettingStarted.html#_setup_browser_integration):
+  Uso [KeepassXC](https://keepassxc.org/) para almacenar mis contraseñas y secretos, esta
+  es la extensión oficial para navegadores web, con autocompletado de
+  formularios. Funciona bastante bien aunque no tanto como competidores como Lastpass o
+  1Password, pero no les confiaría mis datos más íntimos a terceros.
+
+En Firefox solía usar estas extensiones:
 
 - [uBlock Origin](https://ublockorigin.com/): el mejor bloqueador de anuncios que existe
   (que yo sepa, si conoces alguno mejor por favor házmelo saber). Usa poco procesador y
@@ -34,17 +45,6 @@ alfabético:
   Arkenfox](https://github.com/arkenfox/user.js/wiki/4.1-Extensions) aprendí que son
   superfluas si se configura bien uBlock Origin. Y déjame decirte una cosa más: mi Firefox
   *vuela* después de eliminar esas extensiones.
-- [KeepassXC-Browser](https://keepassxc.org/docs/KeePassXC_GettingStarted.html#_setup_browser_integration):
-  Uso [KeepassXC](https://keepassxc.org/) para almacenar mis contraseñas y secretos, esta
-  es la extensión oficial para navegadores web, con autocompletado de
-  formularios. Funciona bastante bien aunque no tanto como competidores como Lastpass o
-  1Password, pero no les confiaría mis datos más íntimos a terceros.
-- [Taho](https://taho.xyz/): una billetera de criptomonedas de código abierto,
-  abre la puerta a la Web 3.0, Dapps, NFTs, ICOs, tokens ERC20... Para mi ha reemplazado a
-  Metamask, que es la opción más popular pero es de código privativo. A noviembre de 2022
-  soporta [Ethereum](https://ethereum.org/en/), [Polygon](https://polygon.technology/),
-  [Optimism](https://www.optimism.io/) y [Arbitrum](https://arbitrum.io/), y añaden
-  soporte para otras cadenas de bloques con frecuencia.
 - [Firefox Multi-Account
   Container](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/):
   Firefox tiene soporte de serie para contenedores, esta extensión es necesaria para
@@ -78,6 +78,7 @@ alfabético:
 
 Actualizaciones:
 
-- 2022-11-19: Reemplazado Metamask con Tally Ho; añadido Sidebery.
-- 2023-01-20: Añadido Skip Redirect; eliminados NoScript, ClearURLs, PrivacyBadger, HTTPSEverywhere, DecentralEyes.
-- 2023-04-20: Tally Ho actualizado a Taho, [cambiaron el nombre de la marca el 21 de febrero de 2023](https://blog.taho.xyz/rename-announcement/).
+- 2022-11-19: Reemplacé Metamask por Tally Ho; añadí Sidebery.
+- 2023-01-20: Añadí Skip Redirect; eliminé NoScript, ClearURLs, PrivacyBadger, HTTPSEverywhere, DecentralEyes.
+- 2023-04-20: Actualicé Tally Ho a Taho, [cambiaron de marca el 21 de febrero de 2023](https://blog.taho.xyz/rename-announcement/).
+- 2026-03-31: Ahora uso Brave como mi navegador web principal.
