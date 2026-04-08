@@ -96,7 +96,7 @@ USE_GOOGLE_FONTS = False
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-PLUGINS = ["i18n_subsites"]
+PLUGINS = ["i18n_subsites", "search"]
 
 JINJA_ENVIRONMENT = {
     "extensions": ["jinja2.ext.i18n"],
