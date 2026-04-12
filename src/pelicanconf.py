@@ -121,6 +121,12 @@ DEFAULT_LANG = "en"
 # use "locale -a" in GNU/Linux to see available locales
 LOCALE = ["en_US.utf8", "es_ES.utf8"]
 
+STORK_INPUT_OPTIONS = {
+    "break_on_file_error": True,
+    "stemming": "english",
+    "url_prefix": SITEURL,
+}
+
 ISSO_URL = "//isso.fidelramos.net"
 ISSO_OPTIONS = {
     "page-author-hashes": "46a0eeac137c",
@@ -159,11 +165,13 @@ I18N_SUBSITES = {
         "TAG_URL": "etiquetas/{slug}",
         "TAG_SAVE_AS": "etiquetas/{slug}.html",
         "MARKDOWN": copy.deepcopy(MARKDOWN),  # copy to override later
+        "STORK_INPUT_OPTIONS": copy.deepcopy(STORK_INPUT_OPTIONS),  # copy to override later
     },
 }
 I18N_SUBSITES["es"]["MARKDOWN"]["extension_configs"]["markdown.extensions.toc"][
     "title"
 ] = "Índice de contenidos"
+I18N_SUBSITES["es"]["STORK_INPUT_OPTIONS"]["stemming"] = "spanish"
 
 I18N_UNTRANSLATED_ARTICLES = "remove"
 I18N_UNTRANSLATED_PAGES = "remove"

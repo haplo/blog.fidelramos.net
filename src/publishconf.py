@@ -22,3 +22,6 @@ DELETE_OUTPUT_DIRECTORY = True
 SHYNET_URL = (
     "https://shynet.fidelramos.net/ingress/c91d9018-d2d1-4197-b607-ab0aa20fdd32"
 )
+
+# Without this the Spanish results point to localhost
+I18N_SUBSITES["es"]["STORK_INPUT_OPTIONS"]["url_prefix"] = SITEURL
