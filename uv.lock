@@ -3,7 +3,7 @@ revision = 3
 requires-python = ">=3.12"
 
 [options]
-exclude-newer = "2026-04-01T21:41:20.374575471Z"
+exclude-newer = "2026-04-16T21:24:59.934985199Z"
 exclude-newer-span = "P7D"
 
 [[package]]
@@ -37,6 +37,7 @@ dependencies = [
     { name = "pelican", extra = ["markdown"] },
     { name = "pelican-i18n-subsites" },
     { name = "pelican-search" },
+    { name = "pelican-series" },
     { name = "pelican-theme-reflex" },
     { name = "rtoml" },
 ]
@@ -47,6 +48,7 @@ requires-dist = [
     { name = "pelican", extras = ["markdown"], specifier = ">=4.11.0" },
     { name = "pelican-i18n-subsites", specifier = ">=1.0.0" },
     { name = "pelican-search", specifier = ">=1.0.2" },
+    { name = "pelican-series", specifier = ">=3.1.1" },
     { name = "pelican-theme-reflex", specifier = ">=3.0.3" },
     { name = "rtoml", specifier = ">=0.13.0" },
 ]
@@ -253,6 +255,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/3c/ef/86cc54014ea61b22b89487933f7e2336fc2e738413773b2f29c6b8fe39cb/pelican_search-1.0.2.tar.gz", hash = "sha256:902191ab76a2a6dc0b817e6e91b2fe6ab41dae24680208a4c29fd7e944764a15", size = 6654, upload-time = "2023-02-09T06:56:28.034Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/fd/2a/8d4e894bd16dc3bf110b7198866e6c534f8d665def063362ccf2edca1921/pelican_search-1.0.2-py3-none-any.whl", hash = "sha256:ff39ba52c5731a60b5f973e58d8b4b983446c59123f45c5bfa04009ff8805172", size = 6019, upload-time = "2023-02-09T06:56:26.612Z" },
+]
+
+[[package]]
+name = "pelican-series"
+version = "3.1.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pelican" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/51/8d/7f04ad7bb0115879e47bfbcf307144102d41dd05047330e7ee63d75c7b49/pelican_series-3.1.1.tar.gz", hash = "sha256:0609d90729f6f5508e7357316106c4893217ba3f17539c1dfd9d6005307f9892", size = 6454, upload-time = "2026-04-04T10:50:49.88Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5e/25/b5f116569f010d83ab15ee7b95d56ad425184ec3bf872d366b3acad93dc3/pelican_series-3.1.1-py3-none-any.whl", hash = "sha256:4f9134a6466ca50c3f4742a3b902fddd2a3c5421fabc32ac8cafcaf3f5246cc7", size = 8177, upload-time = "2026-04-04T10:50:48.637Z" },
 ]
 
 [[package]]
