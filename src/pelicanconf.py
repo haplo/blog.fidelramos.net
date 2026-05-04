@@ -96,7 +96,7 @@ USE_GOOGLE_FONTS = False
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-PLUGINS = ["i18n_subsites", "search", "series"]
+PLUGINS = ["i18n_subsites", "series"]
 
 JINJA_ENVIRONMENT = {
     "extensions": ["jinja2.ext.i18n"],
@@ -123,9 +123,13 @@ LOCALE = ["en_US.utf8", "es_ES.utf8"]
 
 STORK_INPUT_OPTIONS = {
     "break_on_file_error": True,
-    "stemming": "english",
+    "stemming": "English",
     "url_prefix": SITEURL,
 }
+STORK_OUTPUT_OPTIONS = {
+#    "debug" : True
+}
+
 
 ISSO_URL = "//isso.fidelramos.net"
 ISSO_OPTIONS = {
@@ -171,7 +175,7 @@ I18N_SUBSITES = {
 I18N_SUBSITES["es"]["MARKDOWN"]["extension_configs"]["markdown.extensions.toc"][
     "title"
 ] = "Índice de contenidos"
-I18N_SUBSITES["es"]["STORK_INPUT_OPTIONS"]["stemming"] = "spanish"
+I18N_SUBSITES["es"]["STORK_INPUT_OPTIONS"]["stemming"] = "Spanish"
 
 I18N_UNTRANSLATED_ARTICLES = "remove"
 I18N_UNTRANSLATED_PAGES = "remove"
