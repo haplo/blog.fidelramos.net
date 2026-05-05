@@ -5,6 +5,7 @@ requires-python = ">=3.12"
 dependencies = [
     "markdown-captions>=2.1.2",
     "pelican-i18n-subsites>=1.0.0",
+    "pelican-precompress[brotli]>=2.4.0",
     "pelican-search>=1.0.2",
     "pelican-series>=3.1.1",
     "pelican-theme-reflex>=3.0.3",
