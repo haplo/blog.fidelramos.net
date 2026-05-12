@@ -95,7 +95,7 @@ USE_GOOGLE_FONTS = False
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-PLUGINS = ["i18n_subsites", "precompress", "series"]
+PLUGINS = ["copy_code", "i18n_subsites", "precompress", "series"]
 
 JINJA_ENVIRONMENT = {
     "extensions": ["jinja2.ext.i18n"],
@@ -129,6 +129,10 @@ STORK_OUTPUT_OPTIONS = {
 #    "debug" : True
 }
 
+COPY_CODE_OPTIONS = {
+    "BUTTON_BG": "#f8f8f2",
+    "BUTTON_COLOR": "#242121",
+}
 
 ISSO_URL = "//isso.fidelramos.net"
 ISSO_OPTIONS = {
@@ -169,12 +173,15 @@ I18N_SUBSITES = {
         "TAG_SAVE_AS": "etiquetas/{slug}.html",
         "MARKDOWN": copy.deepcopy(MARKDOWN),  # copy to override later
         "STORK_INPUT_OPTIONS": copy.deepcopy(STORK_INPUT_OPTIONS),  # copy to override later
+        "COPY_CODE_OPTIONS": copy.deepcopy(COPY_CODE_OPTIONS)  # copy to override later
     },
 }
 I18N_SUBSITES["es"]["MARKDOWN"]["extension_configs"]["markdown.extensions.toc"][
     "title"
 ] = "Índice de contenidos"
 I18N_SUBSITES["es"]["STORK_INPUT_OPTIONS"]["stemming"] = "Spanish"
+I18N_SUBSITES["es"]["COPY_CODE_OPTIONS"]["BUTTON_TEXT"] = "Copiar"
+I18N_SUBSITES["es"]["COPY_CODE_OPTIONS"]["COPIED_TEXT"] = "¡Copiado!"
 
 I18N_UNTRANSLATED_ARTICLES = "remove"
 I18N_UNTRANSLATED_PAGES = "remove"
