@@ -82,7 +82,6 @@ THEME = reflex.path()
 EXTRA_PATH_METADATA = {
     "extra/custom.css": {"path": "static/custom.css"},
 }
-CUSTOM_CSS = "static/custom.css"
 
 THEME_COLOR = "light"
 THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
