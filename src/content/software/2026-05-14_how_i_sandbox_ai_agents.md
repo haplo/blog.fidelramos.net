@@ -125,7 +125,7 @@ I have been using this setup for a month now, and it's been solid once I nailed 
 I can now use coding agents with the assurance that they won't exfiltrate some private data, or that a bug in Opencode could affect my files or my system.
 
 Next I want to extend this setup so I can use Opencode with a local LLM model through llama.cpp, but without Internet access.
-I want this to work on highly personal projects where I wouldn't trust even Venice.ai's private models, like [my homelab]({file}2023-12-29_homelab.md) configuration.
+I want this to work on highly personal projects where I wouldn't trust even Venice.ai's private models, like [my homelab]({filename}2023-12-29_homelab.md) configuration.
 
 I have also developed my own research agents on Opencode, to track long-lived research projects as a set of Markdown files that serve as memory.
 It uses an extension of the previous Firejail profile, plus extra Opencode configuration and prompts for the researcher agent and searcher subagents.
