@@ -173,15 +173,12 @@ I18N_SUBSITES = {
         "TAG_SAVE_AS": "etiquetas/{slug}.html",
         "MARKDOWN": copy.deepcopy(MARKDOWN),  # copy to override later
         "STORK_INPUT_OPTIONS": copy.deepcopy(STORK_INPUT_OPTIONS),  # copy to override later
-        "COPY_CODE_OPTIONS": copy.deepcopy(COPY_CODE_OPTIONS)  # copy to override later
     },
 }
 I18N_SUBSITES["es"]["MARKDOWN"]["extension_configs"]["markdown.extensions.toc"][
     "title"
 ] = "Índice de contenidos"
 I18N_SUBSITES["es"]["STORK_INPUT_OPTIONS"]["stemming"] = "Spanish"
-I18N_SUBSITES["es"]["COPY_CODE_OPTIONS"]["BUTTON_TEXT"] = "Copiar"
-I18N_SUBSITES["es"]["COPY_CODE_OPTIONS"]["COPIED_TEXT"] = "¡Copiado!"
 
 I18N_UNTRANSLATED_ARTICLES = "remove"
 I18N_UNTRANSLATED_PAGES = "remove"
