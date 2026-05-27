@@ -7,6 +7,7 @@ exclude-newer = "0001-01-01T00:00:00Z" # This has no effect and is included for 
 exclude-newer-span = "P7D"
 
 [options.exclude-newer-package]
+pelican-theme-reflex = false
 pelican-copy-code = { timestamp = "0001-01-01T00:00:00Z", span = "PT0S" }
 
 [[package]]
@@ -419,11 +420,11 @@ wheels = [
 
 [[package]]
 name = "pelican-theme-reflex"
-version = "3.2.0"
+version = "4.0.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/1b/51/8732be758499294c61e7e1ef7645bb67b6c76b9bd67ba40f9705b99458fc/pelican_theme_reflex-3.2.0.tar.gz", hash = "sha256:ed44eaa5504ee2515be234f246ed5a2a2199fda349fed03686027495d3db9ea2", size = 1552011, upload-time = "2026-04-12T17:13:19.311Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/05/c7/4a9bdaa0243ab4f4961c9148082f29a0f5bdc52d084b086fd35097dae6cd/pelican_theme_reflex-4.0.0.tar.gz", hash = "sha256:9d525f9dd58c600ff89298a70dbe9c786d23043c1a23773be7b12bbfa62cdb45", size = 1516105, upload-time = "2026-05-26T20:32:42.704Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/18/cc/9d8794329d5ca36fd9f920b9212bf12becadd248b16b020064356d792e8f/pelican_theme_reflex-3.2.0-py3-none-any.whl", hash = "sha256:8e48e8cce484635cfa552aa62c73abb77557322683e768b5df7fa8213e7e3d16", size = 1699382, upload-time = "2026-04-12T17:13:17.491Z" },
+    { url = "https://files.pythonhosted.org/packages/c5/f3/5814b655bbdfdfbea46be3c475c23cd089e2d5598f1af0df3a131c378c08/pelican_theme_reflex-4.0.0-py3-none-any.whl", hash = "sha256:303f0dac41a6402ee02cc5e4dacf4714972cff19be8369ad97ea6aec9b9d3735", size = 1660858, upload-time = "2026-05-26T20:32:40.438Z" },
 ]
 
 [[package]]
