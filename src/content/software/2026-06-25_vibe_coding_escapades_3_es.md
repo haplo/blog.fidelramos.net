@@ -1,4 +1,4 @@
-Title: Vibe Coding Escapades: Venice.ai KDE widget
+Title: Aventuras en vibe coding: Venice.ai KDE widget
 Date: 2026-06-25
 Lang: es
 Category: Software
