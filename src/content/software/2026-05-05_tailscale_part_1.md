@@ -8,7 +8,7 @@ Series: Self-hosted Tailscale
 
 I had been hearing a lot of people raving about [Tailscale](https://tailscale.com/) as a solution for interconnecting devices, or in other words for creating your own mesh VPN.
 It does seem great on paper: easy to set up, fast and lightweight, based on an open protocol ([WireGuard](https://www.wireguard.com/)), works everywhere, solves the NAT problem...
-However I was put off by handling a company my data, even if only metadata, and requiring personal information for sign-up.
+However I was put off by handing a company my data, even if only metadata, and requiring personal information for sign-up.
 Is there no sovereign solution?
 Well, there is! And I will tell you step by step how to set it up.
 
