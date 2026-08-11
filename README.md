@@ -12,7 +12,6 @@ You need [uv](https://github.com/astral-sh/uv) installed.
 
 ``` shell
 git clone https://github.com/haplo/blog.fidelramos.net.git
-git clone https://github.com/haplo/reflex.git pelican-theme-reflex
 cd blog.fidelramos.net
 uv sync
 ```
