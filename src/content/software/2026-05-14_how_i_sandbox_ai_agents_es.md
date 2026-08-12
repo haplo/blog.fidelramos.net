@@ -2,7 +2,7 @@ Title: Cómo aislo mis agentes IA
 Date: 2026-05-14
 Lang: es
 Category: Software
-Tags: ai,firejail,linux,security
+Tags: firejail,ia,linux,seguridad
 Slug: how-i-sandbox-ai-agents
 
 He estado usando [Opencode](https://opencode.ai/) como mi agente de programación por IA.

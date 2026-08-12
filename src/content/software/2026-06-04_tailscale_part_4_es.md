@@ -2,7 +2,7 @@ Title: Tailscale autoalojado, Parte 4: Servicios web sólo en Tailscale
 Date: 2026-06-04
 Lang: es
 Category: Software
-Tags: howto,linux,security,tailscale,vpn,web
+Tags: howto,linux,seguridad,tailscale,vpn,web
 Slug: tailscale-4-web-services
 Series: Tailscale autoalojado
 

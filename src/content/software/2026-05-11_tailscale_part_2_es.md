@@ -2,7 +2,7 @@ Title: Tailscale autoalojado, Parte 2: DNS con bloqueo de publicidad
 Date: 2026-05-11
 Lang: es
 Category: Software
-Tags: dns,howto,linux,security,tailscale,vpn
+Tags: dns,howto,linux,seguridad,tailscale,vpn
 Slug: tailscale-2-ad-blocking-dns
 Series: Tailscale autoalojado
 

@@ -2,7 +2,7 @@ Title: Tailscale autoalojado, Parte 3: Syncthing sobre Tailscale
 Date: 2026-05-18
 Lang: es
 Category: Software
-Tags: howto,linux,security,syncthing,tailscale,vpn
+Tags: howto,linux,seguridad,syncthing,tailscale,vpn
 Slug: tailscale-3-syncthing
 Series: Tailscale autoalojado
 

@@ -2,7 +2,7 @@ Title: Aventuras en vibe coding
 Date: 2026-05-24
 Lang: es
 Category: Software
-Tags: ai,programming
+Tags: ia,programación
 Slug: vibe-coding-escapades
 Series: Aventuras en vibe coding
 

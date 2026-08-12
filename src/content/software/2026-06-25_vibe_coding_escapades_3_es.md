@@ -2,7 +2,7 @@ Title: Aventuras en vibe coding: Venice.ai KDE widget
 Date: 2026-06-25
 Lang: es
 Category: Software
-Tags: ai,kde,programming
+Tags: ia,kde,programación
 Slug: vibe-coding-escapades-venice-kde-widget
 Series: Aventuras en vibe coding
 

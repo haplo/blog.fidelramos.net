@@ -2,7 +2,7 @@ Title: Aventuras en vibe coding: pelican-copy-code
 Date: 2026-05-26
 Lang: es
 Category: Software
-Tags: ai,blog,pelican,programming,python
+Tags: blog,ia,pelican,programación,python
 Slug: vibe-coding-escapades-pelican-copy-code
 Series: Aventuras en vibe coding
 

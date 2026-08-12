@@ -2,7 +2,7 @@ Title: Añadir nuevos git trailers a Magit
 Date: 2026-08-12
 Lang: es
 Category: Software
-Tags: ai,emacs,free-software,howto,programming
+Tags: emacs,ia,software-libre,howto,programación
 Slug: emacs-custom-magit-trailers
 
 Los *trailers* de Git no son más que líneas de texto al final de un *commit* que

@@ -2,7 +2,7 @@ Title: Pre-estableciendo conexiones maestras de SSH para Ansible, o cómo usar O
 Date: 2026-04-07
 Lang: es
 Category: Software
-Tags: ansible,automation,howto,linux,security
+Tags: ansible,automatización,howto,linux,seguridad
 Slug: ansible-ssh-master-connections
 
 Uso una [OnlyKey](https://onlykey.io/) como dispositivo de seguridad de hardware para varios propósitos:

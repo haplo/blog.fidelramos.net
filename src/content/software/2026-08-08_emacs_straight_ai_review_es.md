@@ -2,7 +2,7 @@ Title: Higiene de la cadena de suministro en Emacs: revisando actualizaciones me
 Date: 2026-08-08
 Lang: es
 Category: Software
-Tags: emacs,howto,programming,seguridad,software-libre
+Tags: emacs,howto,programación,seguridad,software-libre
 Slug: emacs-straight-ai-review
 
 Emacs no tiene *sandbox*. Cada paquete que instalas ejecuta código Lisp arbitrario con todos tus privilegios: acceso a tus archivos, credenciales y red. Esto hace que me dé **mucho miedo** instalar paquetes nuevos o actualizar los existentes.
