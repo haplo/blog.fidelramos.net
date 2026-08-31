@@ -420,11 +420,11 @@ wheels = [
 
 [[package]]
 name = "pelican-theme-reflex"
-version = "4.0.0"
+version = "4.0.1"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/05/c7/4a9bdaa0243ab4f4961c9148082f29a0f5bdc52d084b086fd35097dae6cd/pelican_theme_reflex-4.0.0.tar.gz", hash = "sha256:9d525f9dd58c600ff89298a70dbe9c786d23043c1a23773be7b12bbfa62cdb45", size = 1516105, upload-time = "2026-05-26T20:32:42.704Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/c2/b0/3b1adaec36e8a4fe7aa048d3d85e9cb12d7c4c813bb3068db0658365cdab/pelican_theme_reflex-4.0.1.tar.gz", hash = "sha256:0f68dfb28138a20fb90d39d12bc8b0b5bdd2e75eb11926f4537d4e2d4c77c384", size = 1516120, upload-time = "2026-08-31T20:40:01.772Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c5/f3/5814b655bbdfdfbea46be3c475c23cd089e2d5598f1af0df3a131c378c08/pelican_theme_reflex-4.0.0-py3-none-any.whl", hash = "sha256:303f0dac41a6402ee02cc5e4dacf4714972cff19be8369ad97ea6aec9b9d3735", size = 1660858, upload-time = "2026-05-26T20:32:40.438Z" },
+    { url = "https://files.pythonhosted.org/packages/66/13/d89e7e28a5bad552120fc1fc090b8042f3451f749c9d73237279ce733619/pelican_theme_reflex-4.0.1-py3-none-any.whl", hash = "sha256:93c1919bf09c7708e0c5b4404da2e1464a1afff8d82effdc5fdfddb1898eb62a", size = 1660470, upload-time = "2026-08-31T20:39:59.89Z" },
 ]
 
 [[package]]
